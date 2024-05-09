@@ -51,7 +51,7 @@ Here is a ~5 minute movie of how this process looks on my Mac (it may take longe
 <!-- JPN: recreate this enviroment -->
 ### 2.1 Conda environment
  1. On a Mac search for the "Terminal" prompt/on Windows search for the "Anaconda Prompt" (NOT the navigator)
- 2. In the terminal window type: `conda create -n DataViz python=3.10 seaborn plotly pygraphviz pandas matplotlib bqplot=0.12.30 numpy regex networkx openssl altair yt geopandas gdal rasterio shapely pyproj rtree fiona pillow palettable h5py contextily webcolors openpyxl ipyleaflet vega_datasets nltk wordcloud pip -c conda-forge ; pip install streamlit`
+ 2. In the terminal window type: `conda create -n DataViz python=3.10 seaborn plotly pygraphviz pandas matplotlib bqplot=0.12.30 numpy regex networkx openssl altair yt geopandas gdal rasterio shapely pyproj rtree fiona pillow palettable h5py contextily webcolors openpyxl ipyleaflet vega_datasets nltk wordcloud pip -c conda-forge ; conda activate DataViz ; pip install streamlit`
  
 #### DO NOT TRY TO INSTALL THESE PACKAGES ONE AT A TIME
 
