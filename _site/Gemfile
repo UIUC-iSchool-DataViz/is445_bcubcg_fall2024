@@ -27,6 +27,9 @@ gem "nokogiri", ">= 1.16.5"
 
 gem "commonmarker", ">= 0.23.10"
 
+gem "activesupport", ">= 6.1.7.5"
+
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
