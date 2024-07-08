@@ -1,39 +1,34 @@
 ---
 layout: week
 visible: true
-icon: undraw_programmer_imem.svg
+icon: undraw_forming_ideas_0pav.svg
 notitle: true
 examples:
-  - filename: inClass_week09_fall2023
+  - filename: inClass_week08_spring2023
     type: iodide
-    title: In Class Notebook, Week 09
+    title: In Class Notebook, Week 8
     description: In Class Starboard Notebook
-    link: https://starboard.gg/nb/n77kv4o
-  - filename: prep_notebook_week09_fall2022
+    link: https://starboard.gg/nb/nPN9wCY
+  - filename: prep_notebook_week08_fall2022
     type: iodide
-    title: Prep Starboard Notebook, Week 09
-    description: Prep Starboard Notebook
-    link: https://starboard.gg/nb/n9nb6N8
-  - filename: prep_notebook_week10_fall2022
-    type: iodide
-    title: Extra Starboard - Dashboarding
-    description: Prep Starboard Notebook
-    link: https://starboard.gg/nb/nuXwr0l
-  - filename: prep_notebook_week11
+    title: Prep Starboard Notebook, Week 8
+    description: Prep Starboard Notebook, Fall 2022
+    link: https://starboard.gg/nb/nw1HAOm
+  - filename: prep_notebook_week09_fall2021
     type: iodidePast
-    title: Previous class notebook
-    description: Prep Iodide Notebook, Spring 2020
-    link: https://alpha.iodide.io/notebooks/4399/
-  - filename: prep_notebook_week10_fall2021
-    type: iodidePast
-    title: Previous class notebook
+    title: Prep Starboard Notebook, Week 9
     description: Prep Starboard Notebook, Fall 2021
-    link: https://starboard.gg/nb/nXvyanN
+    link: https://starboard.gg/nb/nKkNIOS
+  - filename: prep_notebook_week10
+    type: iodidePast
+    title: Previous class Iodide notebook
+    description: Prep Iodide Notebook, Spring 2021
+    link: https://alpha.iodide.io/notebooks/7112/
 data:
   - filename: GDP.csv
     type: dataLink
     title: The GDP dataset (online)
-    description: GDP dataset from FRED (stored online for easy linking in Starboard)
+    description: GDP dataset from FRED (stored online for easy linking in Iodide)
     link:  https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/GDP.csv
   - filename: mobility.csv
     type: dataLink
@@ -42,21 +37,22 @@ data:
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv
 ---
 
-# Viz Audience; More Starboard, Javascript & Vega-lite (and maybe Jekyll)
+# Starboard and Intro to Javascript
+
+Using Starboard to publish in Python and an introduction to Javascript.
 
 
-## Installation instructions: Jekyll
-
-We'll be using Jekyll to do some web-dev and we need to install some other software to do this (like Ruby). 
-
-#### [Please follow these installation instructions to install the necessary packages](installation_instructions_week11).
-
+**NOTE**: For Python, only a subset of libraries are supported. See ongoing list [here](https://github.com/iodide-project/pyodide/tree/master/packages).
 
 ## Optional reading list
 
- 1. <a href="https://medium.com/multiple-views-visualization-research-explained/same-data-multiple-perspectives-curse-of-knowledge-in-visual-data-communication-d827c381f936">Same Data, Multiple Perspectives</a> 
- 2. <a href="https://serialmentor.com/dataviz/telling-a-story.html">FDV, Ch. 29: Telling a story and making a point</a> 
- 3. <a href="https://alpha.iodide.io/">Iodide Docs</a> 
- 4. <a href="https://vega.github.io/vega-lite/docs/">vega-lite docs</a> - in particular: <a href="https://vega.github.io/vega-lite/docs/transform.html">Vega-lite transformations</a> & <a href="https://vega.github.io/vega-lite/docs/selection.html">Vega-lite selections</a> 
- 5. <a href="https://jekyllrb.com/showcase/"> Jekyll Examples</a>
+ 1. <a href="https://starboard.gg/">Starboard Docs</a> - in particular: <a href="https://starboard.gg/#python">Pandas & Python</a> & <a href="https://www.markdownguide.org/basic-syntax/">general Markdown format</a>
+ 2. <a href="https://www.codecademy.com/learn/introduction-to-javascript">Intro to Javascript</a> 
+ 3. <a href="https://serialmentor.com/dataviz/directory-of-visualizations.html">FDV, Ch. 5: Directory of visualizations</a>
 
+## Extra Resources
+ * [FiveThirtyEight](https://fivethirtyeight.com/)
+ * [FiveThirtyEight datasets](https://github.com/fivethirtyeight/data)
+ * [jsdelivr](https://www.jsdelivr.com/)
+ * [vega-datasets](https://github.com/vega/vega-datasets/tree/master/data)
+ 

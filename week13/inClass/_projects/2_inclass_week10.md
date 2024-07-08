@@ -54,11 +54,6 @@ This was a plot that was made purely in Altair:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/side_by_side_with_localdata.json" style="width: 100%"></vegachart>
 
 
-## Testing a dropdown plot
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/save_stats.json" style="width: 100%"></vegachart>
-
-
 
 <!-- these are written in a combo of html and liquid --> 
 

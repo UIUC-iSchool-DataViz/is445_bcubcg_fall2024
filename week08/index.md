@@ -1,58 +1,66 @@
 ---
 layout: week
 visible: true
-icon: undraw_forming_ideas_0pav.svg
+icon: undraw_Around_the_world_re_n353.svg
 notitle: true
 examples:
-  - filename: inClass_week08_spring2023
-    type: iodide
-    title: In Class Notebook, Week 8
-    description: In Class Starboard Notebook
-    link: https://starboard.gg/nb/nPN9wCY
-  - filename: prep_notebook_week08_fall2022
-    type: iodide
-    title: Prep Starboard Notebook, Week 8
-    description: Prep Starboard Notebook, Fall 2022
-    link: https://starboard.gg/nb/nw1HAOm
-  - filename: prep_notebook_week09_fall2021
-    type: iodidePast
-    title: Prep Starboard Notebook, Week 9
-    description: Prep Starboard Notebook, Fall 2021
-    link: https://starboard.gg/nb/nKkNIOS
-  - filename: prep_notebook_week10
-    type: iodidePast
-    title: Previous class Iodide notebook
-    description: Prep Iodide Notebook, Spring 2021
-    link: https://alpha.iodide.io/notebooks/7112/
+  - filename: inClass_week07.ipynb
+    type: ipynb
+    title: In class notebook
+    description: Placeholder for in class coding
+  - filename: prep_notebook_week07.ipynb
+    type: ipynb
+    title: Prep Notebook, Week 7
+    description: Prep notebook for this week
+  - filename: spring2019_prep_notebook_week07_part1.ipynb
+    type: ipynb
+    title: spring2019_prep_notebook_week07_part1.ipynb
+  - filename: spring2019_prep_notebook_week07_part2.ipynb
+    type: ipynb
+    title: spring2019_prep_notebook_week07_part2.ipynb
+  - filename: spring2019_prep_notebook_week07_part3.ipynb
+    type: ipynb
+    title: spring2019_prep_notebook_week07_part3.ipynb
 data:
-  - filename: GDP.csv
+  - filename: ufo-scrubbed-geocoded-time-standardized-00.csv
     type: dataLink
-    title: The GDP dataset (online)
-    description: GDP dataset from FRED (stored online for easy linking in Iodide)
-    link:  https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/GDP.csv
-  - filename: mobility.csv
+    title: The UFO Sitings Dataset (13Mb)
+    description: Data about world wide reports of UFO sitings
+    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/ufo-scrubbed-geocoded-time-standardized-00.csv
+  - filename: total_export.csv
     type: dataLink
-    title: The Mobility dataset (online)
-    description: A dataset of USA "mobility" which (I <b>think</b> comes from a <a href="https://www.census.gov/library/working-papers/2018/adrm/CES-WP-18-40R.html">a large census study from 1989-2015</a>) and is collected in several places <a href="http://www.stat.cmu.edu/~cshalizi/uADA/15/hw/01/mobility.csv">including right here</a>.  Here "mobility" is refering to how easy it is for a person to move up in economic status (<a href="http://www.stat.cmu.edu/~cshalizi/uADA/15/hw/01/hw-01.pdf">more info can be found here</a>) based on factors like parental income, location, race, etc.
-    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv
+    title: State export data (8Kb)
+    description: Data about exports from each state
+    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/total_export.csv
+  - filename: market_map_data.csv
+    type: dataLink
+    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/market_map_data.csv
+    title: Surgery Charges Dataset (37Mb)
+    description: Surgery charges in different states
+library:
+  - filename: states_utils.py
+    type: libraryExternal
+    title: State export utilities (states_utils.py)
+    description: Python library, save to notebook folder or modify your path if you know how to do that
+    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/libraries/states_utils.py
+  - filename: us_state_abbrev.py
+    type: libraryExternal
+    title: US State abbreviations (us_state_abbrev.py)
+    description: Python library, save to notebook folder or modify your path if you know how to do that
+    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/libraries/us_state_abbrev.py
 ---
 
-# Starboard and Intro to Javascript
+# Maps, maps and more maps
 
-Using Starboard to publish in Python and an introduction to Javascript.
+We will start thinking about maps & map projection, both in `bqplot` and `matplotlib` and with `geopandas`+`contextily`.  We'll continue this week with building dashboards of mappable data.
 
+<!-- ## Downloads
 
-**NOTE**: For Python, only a subset of libraries are supported. See ongoing list [here](https://github.com/iodide-project/pyodide/tree/master/packages).
+### Data:
 
-## Optional reading list
+ * <a href="https://uiuc-ischool-dataviz.github.io/spring2019online/week04/data/ufo-scrubbed-geocoded-time-standardized-00.csv" download>The UFO Sitings Dataset (13Mb) - ufo-scrubbed-geocoded-time-standardized-00.csv</a>
+ * <a href='total_export.csv' download>State export data (8Kb) - total_export.csv</a>
+ * <a href="market_map_data.csv" download>Backup: Surgery Charges Dataset (37Mb) - market_map_data.csv</a>
+ * <a href="https://uiuc-ischool-dataviz.github.io/spring2019online/week08/data/data_tohoku_norm_transpose.csv" download>Earthquake sensor data (59Mb) - data_tohoku_norm_transpose.csv</a>
+ * <a href="https://uiuc-ischool-dataviz.github.io/spring2019online/week08/data/location.txt" download>Earthquake locations data (12Kb) - location.txt</a>
 
- 1. <a href="https://starboard.gg/">Starboard Docs</a> - in particular: <a href="https://starboard.gg/#python">Pandas & Python</a> & <a href="https://www.markdownguide.org/basic-syntax/">general Markdown format</a>
- 2. <a href="https://www.codecademy.com/learn/introduction-to-javascript">Intro to Javascript</a> 
- 3. <a href="https://serialmentor.com/dataviz/directory-of-visualizations.html">FDV, Ch. 5: Directory of visualizations</a>
-
-## Extra Resources
- * [FiveThirtyEight](https://fivethirtyeight.com/)
- * [FiveThirtyEight datasets](https://github.com/fivethirtyeight/data)
- * [jsdelivr](https://www.jsdelivr.com/)
- * [vega-datasets](https://github.com/vega/vega-datasets/tree/master/data)
- 
