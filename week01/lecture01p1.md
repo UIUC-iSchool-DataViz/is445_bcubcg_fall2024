@@ -282,8 +282,8 @@ Also, I will be out of town during Week 6 so we might move some due dates of ass
 
 ## Syllabus, cont
 
- * Week 8 - Starboard and Intro to Javascript
- * Week 9 - Viz Audience; More Starboard/Observable, Javascript & Vega-lite
+ * Week 8 - Streamlit and Intro to Vega-lite/Altair
+ * Week 9 - Viz Audience; More Streamlit, Vega-lite (possible JavaScript)
  * Week 10 - Intro to Jekyll
  * Week 11 - More with Jekyll+Altair, Publishing Viz
  * Week 12 - A few more Jekyll+Altair+vega-lite things
@@ -604,7 +604,7 @@ your own.  Always cite, and be reasonable in what you utilize.
  * [Jupyter](https://jupyter.org/) & Jupyter notebooks
  * The occasional usage of a shell such as bash
  * Git & [GitHub](https://github.com/) (toward end of class)
- * [Starboard](https://starboard.gg/) 
+ * [Streamlit](https://streamlit.io/) 
  * Markdown & [Jekyll](https://jekyllrb.com/)
  * Slack
 
