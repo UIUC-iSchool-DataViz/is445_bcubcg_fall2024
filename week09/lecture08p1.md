@@ -8,7 +8,7 @@ date: 2023-10-10
 
 ## Last Week
 
-<img src="images/last_week2.png">
+<img src="images/week09_weekbefore.png">
 
 notes:
 last week we discussed maps and mappable data
@@ -17,16 +17,16 @@ last week we discussed maps and mappable data
 
 ## This Week
 
-<img src="images/this_week3.png">
+<img src="images/week09.png">
 
 notes: 
-this week we'll finally start dipping our toes into Javascript with some seriousness
+this week we'll start working toward some tools we'll use to start hosting some interactive viz on the web.
 
 Luckily, will all of our usage of bqplot and grammar of graphics we are well equipt to do this!
 
-in previous iterations of the class we used an online notebook host called Iodide to do this, but it is no longer supported so we are going to use a different one called ~~Starboard~~ Streamlit
+in previous iterations of the class we used online notebook hosts called Iodide or Starboard to do this, but it is no longer supported so we are going to use a different method called ~~Starboard~~ Streamlit which we'll then host on Huggingface.
 
-I've kept some of the links to old Iodide prep notebooks in the extended resources in case you are curious, but it will be very similar to stuff we will be doing using ~~Starboard~~ Streamlit
+I've kept some of the links to old Iodide/Starboard prep notebooks in the extended resources in case you are curious, but it will be very similar to stuff we will be doing using ~~Starboard~~ Streamlit
 
 ---
 
@@ -34,7 +34,8 @@ I've kept some of the links to old Iodide prep notebooks in the extended resourc
 
  1. Choosing your viz
  1. Intro to Vega/Vega-lite
- 1. ~~Iodide~~ ~~Starboard~~ Streamlit
+ 1. Intro to Vega-lite in Altair
+ 1. ~~Iodide~~ ~~Starboard~~ Streamlit (if time)
 
 ---
 

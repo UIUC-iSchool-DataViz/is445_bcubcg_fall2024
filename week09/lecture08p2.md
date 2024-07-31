@@ -30,7 +30,7 @@ Thus far we have used `bqplot` as our primary declaritive method, but we'll star
 vega-lite is a high-level method for describing visualizations independently of
 their data.
 
-We will be exploring this using [Straemlit](https://streamlit.io/) in [HuggingFace](https://huggingface.co/docs/hub/en/spaces-sdks-streamlit).
+We will be exploring this using [Streamlit](https://streamlit.io/) in [HuggingFace](https://huggingface.co/docs/hub/en/spaces-sdks-streamlit).
 
 You can also use `vega-lite` directly with the online editor at:
 
@@ -59,7 +59,9 @@ Then we'll have a *very* hand-wavy intro to how javascript/web dev works
 
 Today, we are introducing the *second to last* major tool we will use: [vega-lite](https://vega.github.io/vega-lite/).
 
-After this: [Jekyll](https://jekyllrb.com/) + [Altair](https://altair-viz.github.io/index.html) & Javascript dev within
+After this: 
+ *  [Streamlit](https://streamlit.io/) + [Altair](https://altair-viz.github.io/index.html) (hosted on [HuggingFace](https://huggingface.co/docs/hub/en/spaces-sdks-streamlit), with JavaScript dev within as needed)
+ * [Altair](https://altair-viz.github.io/index.html) + [Jekyll](https://jekyllrb.com/)
 
 ---
 
@@ -190,7 +192,7 @@ We have used several of these different interaction methods:
  * Not all servers can manipulate data before sending
 
 notes:
-this will be an EXTREMELY hand wavy overview
+this will be an EXTREMELY hand wavy overview -- we want to get a sense of where our our interactive will be "housed" on our webpages
 
 PPP just is a fancy way of saying a communcations protocol that supports transmision between two routers w/ or w/o any host - https://en.wikipedia.org/wiki/Point-to-Point_Protocol
 
@@ -265,6 +267,24 @@ values, and to have those automatically update as needed -- `vega-lite`.
 
 ---
 
+## Document Object Model
+
+The Document Object Model (DOM) is how we interact with the collection of HTML
+objects in our document.
+
+For instance, a page can be composed of `<div>` objects, `<p>` objects, etc,
+and we can construct and interact with these.  This includes things like
+modifying style sheets.
+
+![](https://www.w3schools.com/js/pic_htmltree.gif)
+
+One alternative is to have rendering tied to data and data
+values, and to have those automatically update as needed -- `vega-lite`.
+
+JavaScript will do the rendering for us on the "backend" (but we'll do a quick intro nonetheless!)
+
+---
+
 ## Synchronous programming
 
 In Python, we would fetch a website and wait for that to finish before we move
@@ -329,22 +349,6 @@ var myConcatString = "Hi " + "there " + 5;
 var myObject = {'a': 1, 'b': 2, 'c': [1, 2, 3, 4]};
 ```
 
----
-
-# HERE
-
-* starboard was week 9 & 10
-* jekyll was week 11, 12, 13 (and in theory 15, but I think we didn't work on it)
-
-* vega lite syntax basics -- example
-* example showing how it works with a div element
-* go through a few examples with the vega-editor -- say this can be useful for debugging (example)
-* then copy one to altair to show that
-* then go through a few examples in altair that we have w/o interactivity
-* then do streamlit
-* then do streamlit to huggingface
-* then do altair + interactivity (?) --> streamlit(?)
-* then jekyll + altair
 
 ---
 
@@ -418,71 +422,27 @@ The syntax you will need to be the most familiar with:
 
 ---
 
-## Streamlit goes here!!
-
-Or do we start with Vega-lite/Altair?
-
----
-
 <br>
 <br>
 <br>
 
-# TOPIC 3: Starboard
+# TOPIC 3: Intro to Altair
 
 ---
 
-## Starboard
+## vega-lite to Altair
 
-[A quick intro to Starboard](https://starboard.gg/)
+<div class="left">
+  <h3><u>vega-lite</u></h3>
+  <img src="images/simple_bar_chart_vega.png" width="100%"> 
+</div>
 
-
-notes:
-**DO**
- * starboard.gg -- the intro notebook
- * also at starboard.gg - the Data Viz in JS and Pandas & Matplotlib intro notebooks -- say we will go over this together, but if you want a quick peak
- * note that now the inclass and prep notebooks will be online versions hosted by starboard!
- 
-**come back here for more after!!**
-
----
-
-## [Starboard](https://starboard.gg/) Tips & Tricks
-
-<img src="images/addcell.png">
-
+<div class="right">
+  <div class="left">
+    <h3><u>Altair</u></h3>
+  </div>
+  <img src="images/save_json_altair.png" width="75%"> 
+</div>
 
 notes:
-Starboard is a newer system and so there are some things that are a bit fiddly and we should be aware of.
-
-One is that the "add cell" button is on the right and is a little hard to see.
-
-Also, to add text, you have to click on the little button on the left to modify text or code blocks.
-
----
-
-## [Starboard](https://starboard.gg/) Tips & Tricks
-
-<img src="images/celltype.png">
-
-
-notes:
-You can the type of the cell into things like markdown/JS/Python, etc on the left dropdown as well
-
----
-
-## [Starboard](https://starboard.gg/) Tips & Tricks
-
-<img src="images/dontforgettosave.png">
-
-Autosave is **NOT** a feature of Starboard notebooks!
-
-
-notes:
-one, potentially super annoying thing is that Starboard does not auto-save your work -- make sure you click that save button frequently!!
-
-also also, if you didn't sign up for an account yet, and you do that like, NOW we won't ding you for being late on the assignment ;)
-
-For the jekyll part -- **take the temperature of the class**
-
-
+Once we play around with vega-lite on its own a bit, we'll play around with the same kind of syntax in altair -- this will enable us to develop for streamlit and jekyll
