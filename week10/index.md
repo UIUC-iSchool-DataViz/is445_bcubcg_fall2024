@@ -42,21 +42,18 @@ data:
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv
 ---
 
-# Viz Audience; More Starboard, Javascript & Vega-lite (and maybe Jekyll)
+# Web dev with Streamlit + HuggingFace; Considering your audience
 
+Starting to develop Streamlit apps for hosting on HuggingFace.
 
-## Installation instructions: Jekyll
-
-We'll be using Jekyll to do some web-dev and we need to install some other software to do this (like Ruby). 
-
-#### [Please follow these installation instructions to install the necessary packages](installation_instructions_week11).
+Viz for self/peers/public.
 
 
 ## Optional reading list
 
- 1. <a href="https://medium.com/multiple-views-visualization-research-explained/same-data-multiple-perspectives-curse-of-knowledge-in-visual-data-communication-d827c381f936">Same Data, Multiple Perspectives</a> 
- 2. <a href="https://serialmentor.com/dataviz/telling-a-story.html">FDV, Ch. 29: Telling a story and making a point</a> 
- 3. <a href="https://alpha.iodide.io/">Iodide Docs</a> 
- 4. <a href="https://vega.github.io/vega-lite/docs/">vega-lite docs</a> - in particular: <a href="https://vega.github.io/vega-lite/docs/transform.html">Vega-lite transformations</a> & <a href="https://vega.github.io/vega-lite/docs/selection.html">Vega-lite selections</a> 
- 5. <a href="https://jekyllrb.com/showcase/"> Jekyll Examples</a>
+ 1. <a href="https://medium.com/multiple-views-visualization-research-explained/same-data-multiple-perspectives-curse-of-knowledge-in-visual-data-communication-d827c381f936">Same Data, Multiple Perspectives</a>
+ 2. <a href="https://serialmentor.com/dataviz/telling-a-story.html">FDV, Ch. 29: Telling a story and making a point</a>
+ 3. <a href="https://streamlit.io/">Streamlit docs</a>
+ 4. <a href="https://huggingface.co/docs/hub/en/spaces-sdks-streamlit">Streamlit on HuggingFace</a> 
 
+ 
