@@ -40,19 +40,20 @@ data:
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv
 ---
 
-# Starboard and Intro to Javascript
+# Designing for the web with vega-lite & Altair & Streamlit
 
-Using Starboard to publish in Python and an introduction to Javascript.
+Using Altair to publish in Python and an introduction to Streamlit.
 
 
 **NOTE**: For Python, only a subset of libraries are supported. See ongoing list [here](https://github.com/iodide-project/pyodide/tree/master/packages).
 
 ## Optional reading list
 
- 1. <a href="https://starboard.gg/">Starboard Docs</a> - in particular: <a href="https://starboard.gg/#python">Pandas & Python</a> & <a href="https://www.markdownguide.org/basic-syntax/">general Markdown format</a>
- 2. <a href="https://www.codecademy.com/learn/introduction-to-javascript">Intro to Javascript</a> 
+ 1. <a href="https://vega.github.io/vega-lite/docs/">vega-lite docs</a>
+ 2. <a href="https://altair-viz.github.io/gallery/index.html">Altair docs</a> - in particular <a href="https://altair-viz.github.io/user_guide/encoding.html#encoding-data-types">Encoding Data Types</a>, <a href="https://altair-viz.github.io/user_guide/internals.html#converting-vega-lite-to-altair">Vegalite-Altair conversions</a>, <a href="https://altair-viz.github.io/user_guide/transform/bin.html#bin-transforms">Binning</a>, <a href="https://altair-viz.github.io/user_guide/transform/filter.html">Filter transforms</a> and <a href="https://altair-viz.github.io/gallery/interactive_cross_highlight.html#interactive-chart-with-cross-highlight">interactive examples</a>
  3. <a href="https://serialmentor.com/dataviz/directory-of-visualizations.html">FDV, Ch. 5: Directory of visualizations</a>
 
+ 
 ## Extra Resources
  * [FiveThirtyEight](https://fivethirtyeight.com/)
  * [FiveThirtyEight datasets](https://github.com/fivethirtyeight/data)
