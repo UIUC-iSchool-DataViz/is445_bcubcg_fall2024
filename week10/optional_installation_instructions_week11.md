@@ -1,5 +1,5 @@
 ---
-title: Jekyll & Page Installation Instructions
+title: OPTIONAL - Jekyll & Page Installation Instructions
 layout: assignment
 description: Install Jekyll & required pages for creating your own interactive website
 ---

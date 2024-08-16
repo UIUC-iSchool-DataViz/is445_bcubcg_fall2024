@@ -118,4 +118,52 @@ notes:
 
 ---
 
+## VSCode to develop apps
+
+We'll be using a new interface on PrairieLearn to develop code: VSCode
+
+![](images/vscode_view.png)
+
+---
+
+## VSCode to develop apps
+
+![](images/vscode_link.png)
+
+
+notes: 
+you'll see now a brow VSCode workspace option for in class activities
+
+---
+
+## VSCode to develop apps
+
+![](images/vscode_link.png)
+
+If you want to install locally:
+* Install VSCode: https://code.visualstudio.com/download
+* Install local conda environment: https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2024/week01/installation_instructions.html
+
+
+notes: 
+if you want to install locally you'll have to figure out two steps
+
+---
+
+## VSCode to develop apps
+
+![](images/vscode_link.png)
+
+If you want to install locally:
+* Install VSCode: https://code.visualstudio.com/download
+* Install local conda environment: https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2024/week01/installation_instructions.html
+
+We don't expect you to do any of this!  You can just use the VSCode workspaces provided for you on PrairieLearn.
+
+
+notes: 
+you'll see now a brow VSCode workspace option for in class activities
+
+---
+
 ## To Streamlit in Python!
