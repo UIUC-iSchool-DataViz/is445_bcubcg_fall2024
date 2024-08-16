@@ -30,9 +30,9 @@ data:
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv
 ---
 
-# More with Jekyll+Altair, Publishing Viz
+# More web dev with Streamlit & Altair
 
-We talk a little bit about publishing and carry on with Jekyll and add in some Altair in Python.
+We talk a little bit about publishing and carry on with Streamlit and add in some Altair in Python/Streamlit.
 
 ## Extra files
 
@@ -42,7 +42,6 @@ Full corgi dataset available [here](corg/corgiData_countries_full_2020.json).
 
 ## Optional reading list
 
- 1. <a href="https://jekyllrb.com/tutorials/home/">Jekyll Tutorials (hit "Next" to see them at bottom)</a> 
- 1. <a href="https://altair-viz.github.io/gallery/index.html">Altair docs</a> - in particular <a href="https://altair-viz.github.io/user_guide/encoding.html#encoding-data-types">Encoding Data Types</a>, <a href="https://altair-viz.github.io/user_guide/internals.html#converting-vega-lite-to-altair">Vegalite-Altair conversions</a>, <a href="https://altair-viz.github.io/user_guide/transform/bin.html#bin-transforms">Binning</a>, <a href="https://altair-viz.github.io/user_guide/transform/filter.html">Filter transforms</a> and <a href="https://altair-viz.github.io/gallery/interactive_cross_highlight.html#interactive-chart-with-cross-highlight">interactive examples</a>
- 
+ 1. <a href="https://streamlit.io/">Streamlit docs</a>
+ 2. <a href="https://huggingface.co/docs/hub/en/spaces-sdks-streamlit">Streamlit on HuggingFace</a>
  

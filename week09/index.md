@@ -4,7 +4,7 @@ visible: true
 icon: undraw_forming_ideas_0pav.svg
 notitle: true
 examples:
-  - filename: inClass_week09
+  - filename: inClass_week09.ipynb
     type: ipynb
     title: In Class Notebook, Week 9
     description: In Class Notebook
