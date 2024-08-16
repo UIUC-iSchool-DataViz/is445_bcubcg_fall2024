@@ -4,19 +4,18 @@ visible: true
 icon: undraw_programmer_imem.svg
 notitle: true
 examples:
-  - filename: inClass_week09_fall2023
-    type: iodide
-    title: In Class Notebook, Week 09
-    description: In Class Starboard Notebook
-    link: https://starboard.gg/nb/n77kv4o
+  - filename: prep_script_week10.py
+    type: py
+    title: Prep script file, Week 10
+    description: In class notebook
   - filename: prep_notebook_week09_fall2022
-    type: iodide
-    title: Prep Starboard Notebook, Week 09
+    type: iodidePast
+    title: Prep Starboard Notebook, Fall 2023
     description: Prep Starboard Notebook
     link: https://starboard.gg/nb/n9nb6N8
   - filename: prep_notebook_week10_fall2022
-    type: iodide
-    title: Extra Starboard - Dashboarding
+    type: iodidePast
+    title: Extra Starboard Fall 2023 - Dashboarding
     description: Prep Starboard Notebook
     link: https://starboard.gg/nb/nuXwr0l
   - filename: prep_notebook_week11
