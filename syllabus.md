@@ -4,19 +4,6 @@ title: Syllabus
 notitle: true
 ---
 
-# COVID-19 Statement
-In keeping with University and iSchool policy, all students are required to engage in appropriate behavior to protect the health and safety of our community.  
-
-If you feel ill or are unable to come to class or complete class assignments due to issues related to COVID-19, including but not limited to: testing positive yourself, feeling ill, caring for a family member with COVID-19, or having unexpected child-care obligations, should contact their instructor immediately and cc their advisor.
-
-It is likely we can give you more time on assignments, however you need to reach out to your academic advisor and the course instructor *as soon as possible* so we have as much "runway" as possible in order to support you.
-
-Additionally, please be aware that there are mental health resources available to students:
- * https://www.counselingcenter.illinois.edu/
- * https://mckinley.illinois.edu/medical-services/mental-health
- * https://www.disability.illinois.edu/health/mental-health-resources
- 
-
 # Course Description
 
 Data visualization is crucial to conveying information drawn from models,
@@ -71,6 +58,33 @@ The central themes of the course are:
 2. What tools and ecosystems are available for visualizing data?
 3. What systems can be put in place to generate visualizations rapidly and with
    high-fidelity representation?
+
+## Course Context
+
+This course meets a number of learning outcomes connected to program objectives for 
+the BSIS/MSIM program, which in turn connect to larger iSchool and University of Illinois learning goals. 
+
+#### BSIS
+* Apply critical analytical skills to information issues
+* Understand fundamental mathematical and programming tools for solving problems of
+information modeling, expression, and transformation
+
+#### MSIM
+* Manage information using best practices in management and policy; knowledge representation;
+human-centered design and systems; and data analytics.
+* Accurately convey the implications of analytical results (in both oral and written modalities) to
+diverse stakeholders
+
+
+#### iSchool Goal
+This course meets the following goal:
+* Maintain global leadership in education for the information professions
+
+#### University of Illinois Campus-Wide Learning Goals 
+This course meets the following goals:
+1. Intellectual Reasoning and Knowledge
+2. Creative Inquiry and Discovery
+
 
 ## Pre- and Co-requisites
 
@@ -155,79 +169,6 @@ table th:nth-of-type(3) {
 | <a name="week16">Week 16</a> | Network Viz & Word cloud Viz; Class summary | 1. VAD Ch. 9: Arrange Networks and Trees <br> 2. VAD, Ch. 13.4.3.1: Reduce Items and Attributes <br> 3. VAD, Ch. 6: Rules of Thumb <br> 4. [FDV, Ch. 28: Choosing the right visualization software](https://serialmentor.com/dataviz/choosing-visualization-software.html) <br> 5. [FDV, Ch. 26: Don't go 3D](https://serialmentor.com/dataviz/no-3d.html) <br> 6. [FDV, Ch. 25: Avoid line drawings](https://serialmentor.com/dataviz/avoid-line-drawings.html)
 
 
-# About Your Instructor
-
-Jill Naiman's background is in theoretical and computational astrophysics with a current research emphasis on scientific data visualization and the digitization of historical scientific images and text.  In addition to her position as Teaching Faculty at the iSchool, she is also currently a Visiting Scholar at the Advanced Visualization Lab at the National Center for Supercomputing Applications.  She is currently involved in projects related to increasing access to industry-standard special effects software for scientists - more info can be found <a href="http://ytini.com">here</a> and <a href="http://astroblend.com">here</a>.  Information about her astrophysical research and outreach efforts can be found <a href="http://astronaiman.com">here</a>.
-
-# Library Resources
-
-| http://www.library.illinois.edu/lis/ |
-| lislib@library.illinois.edu          |
-| Phone: (217) 300-8439                |
-
-# Writing and Bibliographic Style Resources
-The campus-wide Writers Workshop provides free consultations. For more
-information see <http://www.cws.illinois.edu/workshop/> The iSchool
-has a Writing Resources Moodle site
-<https://courses.ischool.illinois.edu/course/view.php?id=1705> and
-iSchool writing coaches also offer free consultations.
-
-
-# Academic Integrity
-
-Please review and reflect on the academic integrity policy of the University of Illinois, http://studentcode.illinois.edu/article1_part4_1-401.html, to which we subscribe. By turning in materials for review, you certify that all work presented is your own and has been done by you independently, or as a member of a designated group for group assignments. 
-
-If, in the course of your writing, you use the words or ideas of another writer, proper acknowledgement must be given (using APA, Chicago, or MLA style). Not to do so is to commit plagiarism, a form of academic dishonesty. If you are not absolutely clear on what constitutes plagiarism and how to cite sources appropriately, now is the time to learn. Please ask me!
-
-Please be aware that the consequences for plagiarism or other forms of academic dishonesty will be severe. Students who violate university standards of academic integrity are subject to disciplinary action, including a reduced grade, failure in the course, and suspension or dismissal from the University.
-
-Criteria for grading homework assignments include (but are not limited to) creativity and the amount of original work demonstrated in the assignment. However, students are permitted to use and adapt the work of others, provided that the following guidelines are followed:
- * Use of other people’s material must not infringe the copyright of the original author, nor violate the terms of any licensing agreement. Know and respect the principles of fair use with respect to copyrighted material.
- * Students must scrupulously attribute the original source and author of whatever material has been adapted for the assignment. Summarize the changes or adaptations that have been made. Make plain how much of the assignment represents original work.
- 
-*This applies to code as well* -- you are welcome to use online sources (e.g. StackOverflow) but be sure to include the URL in your code comments.
-
-Additionally, unless explicitly stated **do not** publish homework solutions online.
-
-
-## Policy on ChatGPT and other Large Language Models (LLMs)
-	
-The purpose of written and programming assignments is for students to apply what they have learned in class and learn how to validate statements and code or software.  The purpose is not to produce a “perfect” bit of text or code/software – there is no such thing!  Instead, we want to see how you problem-solve and what you think about a particular topic.
-
-LLMs can be useful for getting ideas about how to phrase text or to get started on a coding/software problem, however they are not meant to be used in place of your critical thinking skills.  Remember – it is more important that we hear your thoughts on topics than it is to generate 100% perfect English, and if you make use of LLMS, we expect significant extra work to be submitted with your submissions.  
-
-We will be implementing several policies related to the use of LLMS as listed below:
-
- * **Acceptable Use:** Students are allowed to utilize ChatGPT or similar AI language models for course assignments or tests but in specific situations. Such usage should be restricted to brainstorming, seeking inspiration, expanding ideas, and improving writing, and must not constitute the primary source of content or answers.
- * **No Direct Answers:** Students must not directly copy or paraphrase AI-generated text without proper attribution. Usage of ChatGPT or similar AI language models to directly answer specific questions or complete entire assignments is strictly prohibited. Students should rely on their knowledge and understanding, supplemented by AI tools for assistance.
- * **Fact-Checking and Verification:** Students must critically assess and verify any information obtained through ChatGPT or similar AI language models before incorporating it into their work. Misleading or inaccurate information from the AI model should not be used in their submissions. Cross-reference the AI-generated information with reputable sources to verify its accuracy and reliability.  In particular, if you use an LLM you must:
-    * Include the LLM name and date of usage
-    * Include the prompt used
-    * Include your “validation plan” for each statement that you use from the LLM.  
-        * Writing: For example, if one wants to use the statement “The Sky is blue due to Rayleigh scattering.” as output by an LLM, links to research supporting this claim need to be included (and if those links have also been generated by the LLM, each will need to be verified).  
-        * Code/Software: you will need to create your own validation tests to run the code.  Include this in your submission along with a few sentences describing how your validation tests relate to the prompt.
- * **Transparent Use and Academic Integrity:** Clearly indicate any sections or contents that are AI-generated.
- * **Assignment-Specific Guidelines:** Each assignment or test may have specific instructions regarding the use of AI tools. Students must carefully review and comply with any guidelines provided.
- * **Consequences of Misuse:** Violation of the class policy on the use of ChatGPT will be treated as an academic integrity breach and subject to disciplinary action as per the institution's guidelines.
-	
-The above class policy on the use of AI for course assignments were generated by ChatGPT, and selected, modified, and adapted by Dr. Koh on 8/3/23, and further modified by Dr. Naiman on 8/20/2023. The used prompts include: Give me class policy on the use of ChatGPT for course assignments and tasks; Come up with more specific class policy; and Give me examples of class policy on the use of ChatGPT for course assignments and tests.
-
-
-
-# Statement of Inclusion
-
-[Review the statement](http://www.inclusiveillinois.illinois.edu/mission.html).
-
-As the state’s premier public university, the University of Illinois at Urbana-Champaign’s core mission is to serve the interests of the diverse people of the state of Illinois and beyond. The institution thus values inclusion and a pluralistic learning and research environment, one which we respect the varied perspectives and lived experiences of a diverse community and global workforce. We support diversity of worldviews, histories, and cultural knowledge across a range of social groups including race, ethnicity, gender identity, sexual orientation, abilities, economic class, religion, and their intersections.
-
-
-# Accessibility Statement
-
-To obtain accessibility-related academic adjustments and/or auxiliary aids, students with disabilities must contact the course instructor and the  [Disability Resources and Educational Services](http://disability.illinois.edu/) (DRES) as soon as possible. To contact DRES you may visit 1207 S. Oak St., Champaign, call 333-4603 (V/TTY), or e-mail a message to disability@uiuc.edu.  
-
-This syllabus may be obtained in alternative formats upon request. Please contact the instructor.
-
-
 # Assignments and Evaluation
 
 ## General Assignment Info
@@ -262,20 +203,18 @@ Assignments will either be graded by the [PrairieLearn](https://us.prairielearn.
 
 The breakdown of your grade will be:
 
-| 45% | Homework: ~every-other week, prose or code, graded whole or partially by instructional team 
-| 20% | Labs: ~every-other week, code, graded automatically (can be attempted as many times as you want before the due date)
+| 40% | Homework: ~every-other week, prose or code, graded whole or partially by instructional team 
+| 25% | Labs: ~every-other week, code, graded automatically (can be attempted as many times as you want before the due date)
 | 5%  | Quizzes: ~weekly, short questions about lecture material, graded automatically (multiple attempts are allowed, however with decreasing scores)
 | 30% | Final project: prose and code, graded by instructional team
 
 ### Other notes about assessments
  * Unless otherwise specified, all assignments will be completed on the [PrairieLearn platform](https://us.prairielearn.com/).
  * There will be opportunities for extra credit in the homework and final project portions.  
- * The *maximum* homework score is fixed at 45% (even with extra credit included).
+ * The *maximum* homework score is fixed at 35% (even with extra credit included).
  * Your lowest homework score will be dropped, however, we will not drop:
    * Homework \#1 (introduction, installations, etc)
-   * Github Pages Setup Homework (Homework \#4)
-   * Starboard & Jekyll Page Setup Homework (Homework \#5)
-   * Starboard OR Jekyll Page Homework (Homework \#7 or \#8) -- i.e. you need to do AT LEAST one of these assignments
+   * Streamlit OR Jekyll Page Homework (Homework \#5 or \#6) -- i.e. you need to do AT LEAST one of these assignments
    
 
 
@@ -370,13 +309,103 @@ assignment (or in the case of emergencies, as soon as practicable).
 
 #### Assignment Late Policies
 
-We allow students to turn in Homeworks up to a week late without penalty.  If you need to “use” one of your late homeworks use the "Extension Request" tool for each assignment in that week's module and specify that you would like to use an extension.  The extension request needs to be submitted *before the assignment is due* and can not be requested retroactively.  You do not need to provide any explanation for why you’d like to use an extension.  You will then have one extra week to submit this assignment.  No extensions can be applied to Labs, Quizzes, or any parts of the Final Project.
+We allow students to turn in Homeworks up to a week late without penalty.  If you need to “use” one of your late homeworks use the "Extension Request" tool for each assignment in that week's module and specify that you would like to use an extension.  The extension request needs to be submitted *before the assignment is due* and can not be requested retroactively.  You do not need to provide any explanation for why you’d like to use an extension.  You will then have one extra week to submit this assignment. **Please note:** Once you submit your extension request wait until you receive a confirmation email from the instructional team before submitting your assignment.  If you submit your assignment before receiving this email, it will be marked late even if you have requested an extension.
+
+ No extensions can be applied to Labs, Quizzes, or any parts of the Final Project.
 
 Late policies for homeworks not on extension include: 10% off for up to 1 day late, 20% off for 2 days late, 30% off for 3 days late.  All homeworks not on extension will be given a zero if turned in after 3 days past the due date.
 
 Late policies for labs will be: 5% off for up to 1 day late, 10% for up to 3 days late, 20% for up to 4 days late, 30% for up to 5 days late. There are no extensions for Labs.
 
 Quizzes, Extra Credit assignments, and the Final Project follow homework late policies: 10% off for up to 1 day late, 20% off for 2 days late, 30% off for 3 days late.  All homeworks not on extension will be given a zero if turned in after 3 days past the due date.  There are no extensions for any of these assignments.
+
+
+
+# About Your Instructor
+
+Jill Naiman's background is in theoretical and computational astrophysics with a current research emphasis on scientific data visualization and the digitization of historical scientific images and text.  In addition to her position as Teaching Faculty at the iSchool, she is also currently a Visiting Scholar at the Advanced Visualization Lab at the National Center for Supercomputing Applications.  She is currently involved in projects related to increasing access to industry-standard special effects software for scientists - more info can be found <a href="http://ytini.com">here</a> and <a href="http://astroblend.com">here</a>.  Information about her astrophysical research and outreach efforts can be found <a href="http://astronaiman.com">here</a>.
+
+# Library Resources
+
+| http://www.library.illinois.edu/lis/ |
+| lislib@library.illinois.edu          |
+| Phone: (217) 300-8439                |
+| https://www.library.illinois.edu/infosci/ |
+
+# Writing and Bibliographic Style Resources
+The campus-wide Writers Workshop provides free consultations. For more
+information see <http://www.cws.illinois.edu/workshop/> The iSchool
+has a Writing Resources Moodle site
+<https://courses.ischool.illinois.edu/course/view.php?id=1705> and
+iSchool writing coaches also offer free consultations.
+
+# Disruptive behavior
+Behavior that persistently or grossly interferes with classroom activities is considered disruptive behavior and may be subject to disciplinary action. Such behavior inhibits other students’ ability to learn and an instructor’s ability to teach. A student responsible for disruptive behavior may be required to leave class pending discussion and resolution of the problem and may be reported to the Office for Student Conflict Resolution (https://conflictresolution.illinois.edu; conflictresolution@illinois.edu; 333-3680) for disciplinary action.
+
+# Academic Integrity
+
+Please review and reflect on the academic integrity policy of the University of Illinois, http://studentcode.illinois.edu/article1_part4_1-401.html, to which we subscribe. By turning in materials for review, you certify that all work presented is your own and has been done by you independently, or as a member of a designated group for group assignments. 
+
+If, in the course of your writing, you use the words or ideas of another writer, proper acknowledgement must be given (using APA, Chicago, or MLA style). Not to do so is to commit plagiarism, a form of academic dishonesty. If you are not absolutely clear on what constitutes plagiarism and how to cite sources appropriately, now is the time to learn. Please ask me!
+
+Please be aware that the consequences for plagiarism or other forms of academic dishonesty will be severe. Students who violate university standards of academic integrity are subject to disciplinary action, including a reduced grade, failure in the course, and suspension or dismissal from the University.
+
+Criteria for grading homework assignments include (but are not limited to) creativity and the amount of original work demonstrated in the assignment. However, students are permitted to use and adapt the work of others, provided that the following guidelines are followed:
+ * Use of other people’s material must not infringe the copyright of the original author, nor violate the terms of any licensing agreement. Know and respect the principles of fair use with respect to copyrighted material.
+ * Students must scrupulously attribute the original source and author of whatever material has been adapted for the assignment. Summarize the changes or adaptations that have been made. Make plain how much of the assignment represents original work.
+ 
+*This applies to code as well* -- you are welcome to use online sources (e.g. StackOverflow) but be sure to include the URL in your code comments.
+
+Additionally, unless explicitly stated **do not** publish homework solutions online.
+
+
+## Policy on ChatGPT and other Large Language Models (LLMs)
+	
+The purpose of written and programming assignments is for students to apply what they have learned in class and learn how to validate statements and code or software.  The purpose is not to produce a “perfect” bit of text or code/software – there is no such thing!  Instead, we want to see how you problem-solve and what you think about a particular topic.
+
+LLMs can be useful for getting ideas about how to phrase text or to get started on a coding/software problem, however they are not meant to be used in place of your critical thinking skills.  Remember – it is more important that we hear your thoughts on topics than it is to generate 100% perfect English, and if you make use of LLMS, we expect significant extra work to be submitted with your submissions.  
+
+We will be implementing several policies related to the use of LLMS as listed below:
+
+ * **Acceptable Use:** Students are allowed to utilize ChatGPT or similar AI language models for course assignments or tests but in specific situations. Such usage should be restricted to brainstorming, seeking inspiration, expanding ideas, and improving writing, and must not constitute the primary source of content or answers.
+ * **No Direct Answers:** Students must not directly copy or paraphrase AI-generated text without proper attribution. Usage of ChatGPT or similar AI language models to directly answer specific questions or complete entire assignments is strictly prohibited. Students should rely on their knowledge and understanding, supplemented by AI tools for assistance.
+ * **Fact-Checking and Verification:** Students must critically assess and verify any information obtained through ChatGPT or similar AI language models before incorporating it into their work. Misleading or inaccurate information from the AI model should not be used in their submissions. Cross-reference the AI-generated information with reputable sources to verify its accuracy and reliability.  In particular, if you use an LLM you must:
+    * Include the LLM name and date of usage
+    * Include the prompt used
+    * Include your “validation plan” for each statement that you use from the LLM.  
+        * Writing: For example, if one wants to use the statement “The Sky is blue due to Rayleigh scattering.” as output by an LLM, links to research supporting this claim need to be included (and if those links have also been generated by the LLM, each will need to be verified).  
+        * Code/Software: you will need to create your own validation tests to run the code.  Include this in your submission along with a few sentences describing how your validation tests relate to the prompt.
+ * **Transparent Use and Academic Integrity:** Clearly indicate any sections or contents that are AI-generated.
+ * **Assignment-Specific Guidelines:** Each assignment or test may have specific instructions regarding the use of AI tools. Students must carefully review and comply with any guidelines provided.
+ * **Consequences of Misuse:** Violation of the class policy on the use of ChatGPT will be treated as an academic integrity breach and subject to disciplinary action as per the institution's guidelines.
+	
+The above class policy on the use of AI for course assignments were generated by ChatGPT, and selected, modified, and adapted by Dr. Koh on 8/3/23, and further modified by Dr. Naiman on 8/20/2023. The used prompts include: Give me class policy on the use of ChatGPT for course assignments and tasks; Come up with more specific class policy; and Give me examples of class policy on the use of ChatGPT for course assignments and tests.
+
+
+
+# Statement of Inclusion
+
+[Review statement](https://diversity.illinois.edu/about/senate-diversity-resolution/)
+
+As the state’s premier public university, the University of Illinois at Urbana-Champaign’s core mission is to serve the interests of the diverse people of the state of Illinois and beyond. The institution thus values inclusion and a pluralistic learning and research environment, one which we respect the varied perspectives and lived experiences of a diverse community and global workforce. We support diversity of worldviews, histories, and cultural knowledge across a range of social groups including race, ethnicity, gender identity, sexual orientation, abilities, economic class, religion, and their intersections. 
+
+
+
+# Religious Observances
+In keeping with our Statement of Inclusion and Illinois law, the University is required to reasonably accommodate its students' religious beliefs, observances, and practices in regard to admissions, class attendance, and the scheduling of examinations and work requirements. 
+
+Religious Observance Accommodation Request form: https://cm.maxient.com/reportingform.php?UnivofIllinois&layout_id=19
+Other accommodations may be available.
+
+# Accessibility Statement
+To obtain accessibility-related academic adjustments and/or auxiliary aids, students with disabilities must contact the course instructor and the Disability Resources and Educational Services (DRES) as soon as possible. To contact DRES you may visit 1207 S. Oak St., Champaign, call 333-1970 (V/TTY), or e-mail a message to disability@illinois.edu.  
+
+To insure disability-related concerns are properly addressed from the beginning of the semester, I request that students with disabilities who require assistance to participate in this class contact me as soon as possible to discuss your needs and any concerns you may have. The University of Illinois may be able to provide additional resources to assist you in your studies through the office of Disability Resources and Educational Services (DRES). This office can assist you with disability-related academic adjustments and/or auxiliary aids. Please contact them as soon as possible by visiting the office in person: 1207 S. Oak St., Champaign; visiting the website: http://disability.illinois.edu; calling (217) 333-4603 (V/TTY); or via e-mail disability@illinois.edu. NOTE: I do not require a letter from DRES in order to discuss your requested accommodations. 
+
+DRES (Disability Resources and Educational Services) workshop on accommodations with Tina Cowsert (MS/LIS '19), Access Specialist/Interpreter Coordinator; Mandi Carey, Access Specialist/ Student Services; Lena Bohman (MS/LIS '20): 
+Event date 02-13-21   https://mediaspace.illinois.edu/media/t/1_kfxfvga4
+
+
 
 
 
@@ -456,3 +485,57 @@ assistance in emergency situations.
 - Follow the University of Illinois Police Department on Twitter and
   Facebook to get regular updates about campus safety.
 
+
+
+# Resources to help you succeed:
+As members of the Illinois community, we each have a responsibility to express care and concern for one another. If you come across a classmate whose behavior concerns you, whether in regards to their well-being or yours, we encourage you to refer this behavior to the Student Assistance Center (217-333-0050 or http://odos.illinois.edu/community-of-care/referral/). Based
+on your report, the staff in the Student Assistance Center reaches out to students to make sure they have the support they need to be healthy and safe.
+ 
+Further, as a Community of Care, we want to support you in your overall wellness. We know that students sometimes face challenges that can impact academic performance (examples include mental health concerns, food insecurity, homelessness, personal emergencies). Should you find that you are managing such a challenge and that it is interfering with your coursework, you are encouraged to contact the Student Assistance Center (SAC) in the Office of the Dean of Students for support and referrals to campus and/or community resources.
+
+## Mental Health Resources
+Significant stress, mood changes, excessive worry, substance/alcohol misuse or interferences in eating or sleep can have an impact on academic performance, social development, and emotional wellbeing. The University of Illinois offers a variety of confidential services including individual and group counseling, crisis intervention, psychiatric services, and specialized screenings which are covered through the Student Health Fee. If you or someone you know experiences any of the above mental health concerns, it is strongly encouraged to contact or visit any of the University’s resources provided below. Getting help is a smart and courageous thing to do for yourself and for those who care about you.
+ • Counseling Center (217) 333-3704
+ • McKinley Health Center (217) 333-2700
+ • National Suicide Prevention Lifeline (800) 273-8255
+ • Rosecrance Crisis Line (217) 359-4141 (available 24/7, 365 days a year)
+ If you are in immediate danger, call 911.
+
+## Emergency Response Recommendations
+Emergency response recommendations and campus building floor plans can be found at the following website: https://police.illinois.edu/em/run-hide-fight/. I encourage you to review this website within the first 10 days of class.
+
+## Other Resources
+Students experiencing economic hardships resulting in food insecurity, housing insecurity, homelessness, or other issues that may affect the quality of their work, are encouraged to reach out to iSchool Assistant Dean for Student Affairs, April Carter at acart22@illinois.edu or call 217–333-0532.
+
+# Sexual Misconduct Reporting Obligation
+The University of Illinois is committed to combating sexual misconduct. Faculty and staff members are required to report any instances of sexual misconduct to the University’s Title IX Office. In turn, an individual with the Title IX Office will provide information about rights and options, including accommodations, support services, the campus disciplinary process, and law enforcement options.
+A list of the designated University employees who, as counselors, confidential advisors, and medical professionals, do not have this reporting responsibility and can maintain confidentiality, can be found here: wecare.illinois.edu/resources/students/#confidential.
+Other information about resources and reporting is available here: wecare.illinois.edu.
+
+
+# The iSchool Academic Support Center
+The iSchool Academic Support Center offers academic success workshops; coordinates with faculty and instructors to provide support for specific courses or exams; and curates and shares academic support resources. Appointments are available online and in person in room 4020 (Academic Support Center) in the 614 E. Daniel iSchool building. For more information including hours of operation, please visit https://ischool.illinois.edu/student-life/academic-support-center.
+
+# The Writers Workshop 
+The Writers Workshop (https://writersworkshop.illinois.edu/) provides writing support to students, including individual consultations, workshops, and resources. In response to the ongoing COVID-19 pandemic, all Writers Workshop consultations are currently offered online (https://writersworkshop.illinois.edu/services/consultations/online/). 
+To request disability-related accommodations for our services, please contact Dr. Carolyn Wisniewski at wow@illinois.edu or call 217-333-8796.
+
+# Emergencies
+
+### Covid-19
+In keeping with University and iSchool policy, all students are required to engage in appropriate behavior to protect the health and safety of our community.  
+
+If you feel ill or are unable to come to class or complete class assignments due to issues related to COVID-19, including but not limited to: testing positive yourself, feeling ill, caring for a family member with COVID-19, or having unexpected child-care obligations, should contact their instructor immediately and cc their advisor.
+
+It is likely we can give you more time on assignments, however you need to reach out to your academic advisor and the course instructor *as soon as possible* so we have as much "runway" as possible in order to support you. If significant extra time is required to complete assignments, it is likely you will need to get a "Absence Letter" from the University -- please [see this link here](https://odos.illinois.edu/resources/students/absence-letters) for more information about retaining a letter.
+
+Additionally, please be aware that there are mental health resources available to students:
+ * https://www.counselingcenter.illinois.edu/
+ * https://mckinley.illinois.edu/medical-services/mental-health
+ * https://www.disability.illinois.edu/health/mental-health-resources
+
+### Other Emergencies 
+
+If students need to miss class or assignments for significant periods of time due to illness or other emergencies, it is imperative they acquire a letter from the University in order for the instructor to be able to give them extended time in order to avoid any [Capricious Grading](https://studentcode.illinois.edu/article3/part1/3-107) concerns.
+
+Instructions for how to get a letter can be found at [this link here](https://odos.illinois.edu/resources/students/absence-letters).
