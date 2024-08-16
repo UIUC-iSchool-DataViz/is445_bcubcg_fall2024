@@ -30,9 +30,9 @@ layout: default
 {% assign subpages = sorted_pages | where: "dir", f.dir %}
 {% assign lectures = subpages | where: "layout", "lecture" | sorted: "date" %}
 {% assign assignments = subpages | where: "layout", "assignment" | sorted: "date" %}
-{% for subpage in subpages %}
-{% assign tags = tags | concat: subpage.tags %}
-{% endfor %}
+    {% for subpage in subpages %}
+        {% assign tags = tags | concat: subpage.tags %}
+    {% endfor %}
 {% assign tags = tags | uniq %}
 <div class="columns">
     <div class="column is-one-quarter">
@@ -83,7 +83,7 @@ layout: default
                 </p>
             </div>
         </div>
-        {% endfor %}
+        {% endfor %} <!-- end of looping over week_pages -->
         {% for example in f.examples %}
         {% unless example.filename contains "2019" %}
         {% unless example.filename contains "spring2021" %}
