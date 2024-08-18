@@ -8,6 +8,10 @@ examples:
     type: py
     title: Prep script file, Week 10
     description: In class notebook
+  - filename: inClass_script_week10.py
+    type: py
+    title: In class script file, Week 10
+    description: In class notebook
   - filename: prep_notebook_week09_fall2022
     type: iodidePast
     title: Prep Starboard Notebook, Fall 2023

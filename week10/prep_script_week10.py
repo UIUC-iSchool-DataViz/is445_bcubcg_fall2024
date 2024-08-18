@@ -44,6 +44,7 @@ st.write('This is also some text.')
 # You shoudl do whatever makes sense to you!
 
 ### 1.2 Layout elements ###
+st.subheader('Layouts')
 # There are several different ways we can layout our text/charts.
 # See: https://docs.streamlit.io/develop/api-reference/layout 
 
@@ -56,6 +57,19 @@ col2.write('This is me adding in some text to column 2')
 
 # There is a lot of fun stuff here to play with in layouts! 
 # For our purposes, we'll start off with some of the simple defaults.
+
+### 1.3 Images ###
+st.subheader('Images')
+# We can include images with a URL:
+st.image('https://i.redd.it/on-a-scale-of-1-10-how-derpy-is-she-v0-z8gtdwu5n5zb1.jpg?width=3024&format=pjpg&auto=webp&s=345e7e1d5b45f20c733e497a9f746f4cbd3a61da',
+         width=400,
+         caption='A thinly veiled excuse to include a derpy corgi.')
+
+st.write('We can also include images from data:')
+
+import numpy as np
+img_data = np.random.random((200,400))
+st.image(img_data, caption='Some randomly generated data with NumPy.')
 
 
 
@@ -73,7 +87,6 @@ st.header('Vega-lite in Streamlit')
 
 # Example 1: from the st.vega_lite_chart docs -- you can pass data from Python + the vega-lite specification
 import pandas as pd
-import numpy as np
 
 chart_data = pd.DataFrame(np.random.randn(200, 3), columns=["a", "b", "c"])
 
@@ -144,69 +157,41 @@ scatters # note we can use the "magic" display here
 
 st.write('We can also use some of the layout elements to enhance our plot instead of just using the "magic" function:')
 
-col1,col2 = st.columns(2)
+col1,col2 = st.columns([0.7, 0.25]) # note we can give the relative size of the columns 
+# vertical alignment should work!
+#col1,col2 = st.columns([0.7, 0.25],vertical_alignment=['top','top']) # note we can give the relative size of the columns 
 col1.altair_chart(scatters, theme="streamlit", use_container_width=True)
 col2.write("Here is some text that I can write on the side of my plot.")
+col2.image('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/589addc9-2a52-4635-a179-a31739ef8d8d/dex09mu-7f3926cb-46d6-4550-ac4e-13e4a5cff53f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU4OWFkZGM5LTJhNTItNDYzNS1hMTc5LWEzMTczOWVmOGQ4ZFwvZGV4MDltdS03ZjM5MjZjYi00NmQ2LTQ1NTAtYWM0ZS0xM2U0YTVjZmY1M2YuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CcWUljPFORIshWxosDjUpl_D5nh00NpBA3Nku1DyXPY',
+           width=200, caption='We can also include images/other elements in columns.')
 
 
-# ****HERE****
-# from vega_datasets import data
- 
+st.header('More complex Dashboards')
 
-# source = data.seattle_weather()
+brush = alt.selection_interval(encodings=['x','y'])
 
-# scale = alt.Scale(
-#     domain=["sun", "fog", "drizzle", "rain", "snow"],
-#     range=["#e7ba52", "#a7a7a7", "#aec7e8", "#1f77b4", "#9467bd"],
-# )
-# color = alt.Color("weather:N", scale=scale)
+chart1 = alt.Chart(mobility_url).mark_rect().encode(
+    alt.X("Student_teacher_ratio:Q", bin=alt.Bin(maxbins=10)),
+    alt.Y("State:O"),
+    alt.Color("count()")
+).properties(
+   height=400
+).add_params(
+        brush
+)
 
-# # We create two selections:
-# # - a brush that is active on the top panel
-# # - a multi-click that is active on the bottom panel
-# brush = alt.selection_interval(encodings=["x"])
-# click = alt.selection_point(encodings=["color"])
+chart2 = alt.Chart(mobility_url).mark_bar().encode(
+    alt.X("Mobility:Q", bin=True,axis=alt.Axis(title='Mobility Score')),
+    alt.Y('count()', axis=alt.Axis(title='Mobility Score Distribution'))
+).transform_filter(
+    brush
+)
 
-# # Top panel is scatter plot of temperature vs time
-# points = (
-#     alt.Chart()
-#     .mark_point()
-#     .encode(
-#         alt.X("monthdate(date):T", title="Date"),
-#         alt.Y(
-#             "temp_max:Q",
-#             title="Maximum Daily Temperature (C)",
-#             scale=alt.Scale(domain=[-5, 40]),
-#         ),
-#         color=alt.condition(brush, color, alt.value("lightgray")),
-#         size=alt.Size("precipitation:Q", scale=alt.Scale(range=[5, 200])),
-#     )
-#     .properties(width=550, height=300)
-#     .add_params(brush)
-#     .transform_filter(click)
-# )
+chart = (chart1.properties(width=300) | chart2.properties(width=300))
 
-# # Bottom panel is a bar chart of weather type
-# bars = (
-#     alt.Chart()
-#     .mark_bar()
-#     .encode(
-#         x="count()",
-#         y="weather:N",
-#         color=alt.condition(click, color, alt.value("lightgray")),
-#     )
-#     .transform_filter(brush)
-#     .properties(
-#         width=550,
-#     )
-#     .add_params(click)
-# )
+tab1, tab2 = st.tabs(["Mobility interactive", "Scatter plot"])
 
-# chart = alt.vconcat(points, bars, data=source, title="Seattle Weather: 2012-2015")
-
-# tab1, tab2 = st.tabs(["Streamlit theme (default)", "Altair native theme"])
-
-# with tab1:
-#     st.altair_chart(chart, theme="streamlit", use_container_width=True)
-# with tab2:
-#     st.altair_chart(chart, theme=None, use_container_width=True)
+with tab1:
+    st.altair_chart(chart, theme=None, use_container_width=True)
+with tab2:
+    st.altair_chart(scatters, theme=None, use_container_width=True)
