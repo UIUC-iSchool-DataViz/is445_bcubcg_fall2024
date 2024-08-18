@@ -4,29 +4,32 @@ visible: true
 icon: undraw_Books_l33t.svg
 notitle: true
 examples:
-  - filename: jekyll tour notes.pdf
-    type: iodide
-    title: Jekyll Tour Notes
-    description: Prep Starboard Notebook
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2023/blob/main/week10/pdfs/jekyll%20tour%20notes.pdf
-  - filename: prep-repo
-    type: iodide
-    title: Prep online_cv file, Week 10
-    description: We'll be building toward a webpage like <a href="https://jnaiman.github.io/online_cv_public/">this</a> today using <a href="https://jekyllrb.com/">Jekyll</a>+<a href="https://altair-viz.github.io/index.html">Altair</a>. 
-    link: https://github.com/jnaiman/online_cv_spring2023
+  - filename: prep_script_week11.py
+    type: py
+    title: Prep script file, Week 11
+    description: In class notebook
   - filename: In Class Jekyll page
     type: iodide
     title: In class Jekyll resources, Week 10
     description: Updating storage of Jekyll files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2023/tree/master/week10/inClass
-  - filename: inClass_week10.ipynb
-    type: ipynb
-    title: In Class Notebook, Week 10
-    description: In class notebook
-  - filename: prep_notebook_week10.ipynb
-    type: ipynb
-    title: Prep Notebook, Week 10
-    description: Prep notebook for this week
+    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week11/inClass
+  # - filename: inClass_script_week11.py
+  #   type: py
+  #   title: In class script file, Week 10
+  #   description: In class notebook
+  # - filename: prep-repo
+  #   type: iodide
+  #   title: Prep online_cv file, Week 10
+  #   description: We'll be building toward a webpage like <a href="https://jnaiman.github.io/online_cv_public/">this</a> today using <a href="https://jekyllrb.com/">Jekyll</a>+<a href="https://altair-viz.github.io/index.html">Altair</a>. 
+  #   link: https://github.com/jnaiman/online_cv_spring2023
+  # - filename: inClass_week10.ipynb
+  #   type: ipynb
+  #   title: In Class Notebook, Week 10
+  #   description: In class notebook
+  # - filename: prep_notebook_week10.ipynb
+  #   type: ipynb
+  #   title: Prep Notebook, Week 10
+  #   description: Prep notebook for this week
 data:
   - filename: mobility.csv
     type: dataLink

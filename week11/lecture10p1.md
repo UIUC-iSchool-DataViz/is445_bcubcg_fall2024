@@ -1,5 +1,5 @@
 ---
-title: Lecture 11.1 - Publishing & Validation
+title: Lecture 10.1 - Publishing & Validation
 layout: lecture
 description: >-
  More about publishing and validation, and Jekyll+vega-lite+Altair
