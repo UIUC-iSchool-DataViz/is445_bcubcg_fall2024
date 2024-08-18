@@ -8,10 +8,10 @@ examples:
     type: py
     title: Prep script file, Week 11
     description: In class notebook
-  - filename: In Class Jekyll page
+  - filename: InClass
     type: iodide
-    title: In class Jekyll resources, Week 10
-    description: Updating storage of Jekyll files in class
+    title: In class Streamlit App, Week 10
+    description: Updating storage of Streamlit files in class
     link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week11/inClass
   # - filename: inClass_script_week11.py
   #   type: py
