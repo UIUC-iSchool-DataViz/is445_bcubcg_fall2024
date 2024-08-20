@@ -6,33 +6,6 @@ description: >-
 date: 2023-10-31
 ---
 
-<br/>
-<br/>
-<br/>
-
-## Be aware: prep "projects" will be stored in `_example_projects/` folder!
-
-notes:
-links to the prep materials will go to the full prep template, but check out the _example_projects folder for specifics
-
----
-
-<br/>
-<br/>
-<br/>
-
-## Reminder: NO extensions for Final Project
-
----
-
-<br/>
-<br/>
-<br/>
-
-## Reminder: Group sign ups will close Nov 7th
-
----
-
 ## Last Week/This Week
 
 <img src="images/week12.png">
@@ -46,14 +19,14 @@ While we'll just touch on vega-lite in Jekyll for plotting and then start lookin
 
 ---
 
-## Notes on the last two weeks of class
+## Final Groups
 
-Weeks 15 & 16 will have some pre-recorded materials for the Quizzes (and extra credit assignments).
+Sign up due 11/7.
 
-There will be short lectures and the rest of the time we'll have space to work on your Final Projects (as a group or on your own).
+Find a group: `#final-project-groups` channel in Slack.
 
 notes:
-IF ONLINE: you can stay in the main room, or there will be breakout rooms for you as well!
+these have been opened, so please sign up before the due date of 11/7!
 
 ---
 

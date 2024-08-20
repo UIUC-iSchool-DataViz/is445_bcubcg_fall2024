@@ -12,45 +12,43 @@ date: 2022-10-25
 
 notes:
 
-we'll start today with finishing up some stuff we've done in Starboard and then,
-
-today we'll be continuing on with some of what we did last week -- moving into more Markdown-based viz and viz "reports" along with more javascript and
-finally getting into jekyll probably at the end of class
+Today we'll move on from Streamlit apps to building some Jekyll webpages.
 
 ---
 
-## Final Groups
+<br/>
+<br/>
+<br/>
 
-Sign up due 11/7.
+## Reminder: NO extensions for Final Project
 
-Find a group: `#final-project-groups` channel in Slack.
+---
+
+<br/>
+<br/>
+<br/>
+
+## Reminder: Group sign ups will close Nov 7th
+
+---
+
+## Notes on the last two weeks of class
+
+Weeks 15 & 16 will have some pre-recorded materials for the Quizzes (and extra credit assignments).
+
+There will be short lectures and the rest of the time we'll have space to work on your Final Projects (as a group or on your own).
 
 notes:
-these have been opened, so please sign up before the due date of 11/7!
+IF ONLINE: you can stay in the main room, or there will be breakout rooms for you as well!
 
 ---
 
-## Going further with Starboard
+## Going further with Streamlit
 
-Extra video in Module from last week -- interactivity and dashboarding in Starboard.  See "Extra Starboard - Dashboarding" notebook from last week.
-
-notes:
-
-**go to video**
-
-**point out starboard link**
-
----
-
-## Going further with Starboard
-
-Extra video in Module from last week -- interactivity and dashboarding in Starboard.  See "Extra Starboard - Dashboarding" notebook from last week.
-
-There are also ways to embed Starboard notebooks in webpages.
-
-Check out a few tutorials for more:
- * https://kjohnsen.org/post/embed-starboard/
- * https://github.com/gzuidhof/starboard-wrap
+Other fun things:
+  * [Embed Streamlit apps in webpages](https://huggingface.co/docs/hub/en/spaces-sdks-streamlit#embed-streamlit-spaces-on-other-webpages)
+  * [Chat apps & LLMs](https://docs.streamlit.io/develop/tutorials/llms)
+  * [Linking to external data sources](https://docs.streamlit.io/develop/tutorials/databases)
 
 ---
 
@@ -59,10 +57,9 @@ Check out a few tutorials for more:
  * Publishing
    * Jekyll
    * Github Pages
-   * vega-lite in Python with Altair
    
 notes:
-**back from starboard**
+**back from streamlit**
 
 ---
 
@@ -449,7 +446,7 @@ we'll be using a templete for our work with Jekyll for this class, so you won't 
 
 ## Markdown in Jekyll
 
-Our Jekyll template uses Markdown for text, just like Starboard:
+Our Jekyll template uses Markdown for text, just like Jupyter:
 
  * To **bold**, use `**two asterisks**`
  * You can _italicize_ with `_underscores_`
@@ -581,7 +578,7 @@ again, our templates and yaml options will take care of all of this for us
 <img src="images/javascript2.png" width="700"/>
 
 notes:
-JavaScript is a dynamic programming language that runs natively on webpages that we've been using the past few weeks in Starboard. If you want to run programming logic in a webpage, you use javascript. If you see interactivity or animated effects on a website, you can generally expect they were written in javascript. 
+JavaScript is a dynamic programming language that runs natively on webpages that we've been using the past few weeks in Streamlit. If you want to run programming logic in a webpage, you use javascript. If you see interactivity or animated effects on a website, you can generally expect they were written in javascript. 
 
 now we will just use altair+vega-lite and our Jekyll templete to make this happen "under the hood" for us!
 
