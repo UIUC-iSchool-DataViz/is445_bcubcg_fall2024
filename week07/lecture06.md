@@ -1,5 +1,5 @@
 ---
-title: Lecture 6 - Dashboards & Maps (ONLINE CLASS ONLY THIS WEEK)
+title: Lecture 6 - Dashboards & Maps 
 layout: lecture
 description: >-
  Linking data with Dashboards 

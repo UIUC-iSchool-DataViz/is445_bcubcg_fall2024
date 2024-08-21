@@ -44,7 +44,7 @@ there is a *huge* overlay of topics that cover data viz - from the neurology of 
 
 ### Why any data viz course will feel a little weird
 
-<img src="images/diagram_for_gradclass.png" width='700px'>
+<img src="images/week_end.png" width='700px'>
 
 notes:
 this is another way of looking at this.
@@ -317,6 +317,15 @@ Step 3: Slowly move your head toward & away from screen until dot disappears
 
 Your visual cortex is processing information from different parts of this page AT THE SAME TIME which means it can do impressive things very quickly.
 
+
+---
+
+Can you spot the differences?
+
+
+
+notes:
+Let's compare two visual images!
 
 ---
 
