@@ -56,7 +56,7 @@ finally, we have several assignments that can be turned in as a group to allow f
 ## Basics
 
 Jill P. Naiman - `jnaiman@illinois.edu`
- * Office Hours: 10:30am-11:45am* (online)
+ * Office Hours: Tuesdays, 10:30am-11:45am* (online)
  
 TA: Tali Zacks - `tzacks2@illinois.edu`
  * Office Hours: Tuesday 2-4pm, Wed & Thurs 1-3pm**  (online)
