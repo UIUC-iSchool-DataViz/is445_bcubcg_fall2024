@@ -25,7 +25,7 @@ we are on a land-grant institution, please see the link on the chancellors page 
 
 ## Absences/Emergencies/COVID-19 Policies
 
-Please see the statement about policies related to Emergencies/COVID-19 at the [top of the Syllabus](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2023/syllabus.html).
+Please see the statement about policies related to Emergencies/COVID-19 at the [on the Syllabus](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2023/syllabus.html).
 
 ---
 
