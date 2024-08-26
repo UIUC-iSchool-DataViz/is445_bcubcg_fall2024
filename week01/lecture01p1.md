@@ -25,7 +25,7 @@ we are on a land-grant institution, please see the link on the chancellors page 
 
 ## Absences/Emergencies/COVID-19 Policies
 
-Please see the statement about policies related to COVID-19 at the [top of the Syllabus](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2023/syllabus.html).
+Please see the statement about policies related to Emergencies/COVID-19 at the [top of the Syllabus](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2023/syllabus.html).
 
 ---
 
@@ -56,7 +56,7 @@ finally, we have several assignments that can be turned in as a group to allow f
 ## Basics
 
 Jill P. Naiman - `jnaiman@illinois.edu`
- * Office Hours: TBD (online)
+ * Office Hours: 10:30am-11:45am* (online)
  
 TA: Tali Zacks - `tzacks2@illinois.edu`
  * Office Hours: TBD (online)
@@ -65,6 +65,8 @@ TA: Sullam Jeoung  - `sjeoung2@illinois.edu`
  * Office Hours: TBD (online)
 
 Course website: https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2024/
+
+\* this week 3:30pm-4:45pm (annoucements for other changes)
 
 notes: 
 
