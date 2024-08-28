@@ -211,7 +211,7 @@ The breakdown of your grade will be:
 ### Other notes about assessments
  * Unless otherwise specified, all assignments will be completed on the [PrairieLearn platform](https://us.prairielearn.com/).
  * There will be opportunities for extra credit in the homework and final project portions.  
- * The *maximum* homework score is fixed at 35% (even with extra credit included).
+ * The *maximum* homework score is fixed at 40% (even with extra credit included).
  * Your lowest homework score will be dropped, however, we will not drop:
    * Homework \#1 (introduction, installations, etc)
    * Streamlit OR Jekyll Page Homework (Homework \#5 or \#6) -- i.e. you need to do AT LEAST one of these assignments
