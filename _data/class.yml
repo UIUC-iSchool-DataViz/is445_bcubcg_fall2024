@@ -2,18 +2,23 @@ instructor:
   name: Jill Naiman
   email: jnaiman@illinois.edu
   office: Online
-  office_hours: TBD
+  office_hours: 10:30am-11:45am, Tuesdays
 tas:
   -
     name: Sullam Jeoung
     email: sjeoung2@illinois.edu
-    office: TBD
-    office_hours: TBD
+    office: online
+    office_hours: Wed 9am-12pm, Friday 8am-11am
   -
     name: Tali Zacks
     email: tzacks2@illinois.edu
-    office: TBD
+    office: online
     office_hours: TBD
+  -
+    name: Vibhor Tyagi
+    email: vtyag@illinois.edu
+    office: online
+    office_hours: Tuesday - 12pm to 2pm, Thursday - 11am to 2 pm, Friday - 11 am to 12 pm
 
 course:
   name: Data Visualization
