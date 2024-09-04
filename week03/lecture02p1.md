@@ -1,5 +1,5 @@
 ---
-title: Lecture 2.1 - Data storage & Operations, Image data
+title: Lecture 2.1 - A bit of Bureaucracy; Data storage & Operations, Image data
 layout: lecture
 description: >-
  When we draw something on a screen, how do we represent that internally, and how is that translated into pixels? How are values transformed from 0's and 1's into values we can manipulate and understand?
@@ -67,7 +67,7 @@ notes:
 
 part of the syllabus quiz will be checking out the HW policies in more detail -- we will drop the lowest HW score, however there 
 are several assignments you must submit and get above a certain grade on to pass the class -- these are installation assignments 
-and those that are considered "prepratory" for the final project
+and those that are considered "preparatory" for the final project
 
 ---
 
@@ -88,6 +88,26 @@ How to see assignments:
 Make sure you don't start the quiz until you have reviewed the material!  
 
 There is a ~6 hour "time out" for the quiz -- you cannot close and re-open the assignment to submit later.
+
+---
+
+## Strong suggestion: Use the order on PrairieLearn
+
+notes:
+so you should do quizzes, then labs, then HWs
+
+---
+
+## Notes on extensions processing
+
+If you request an extension turn in the assignment *after* you receive the confirmation email.
+
+If you request an extension, but turn in the assignment before the original due date, you don't need to worry about this!
+
+notes:
+the reason for this is a "feature" of PL in that you need to have the updated due date *before* you submit the assignment, and we need time to process and add these new due dates
+
+if you do submit in this "nebulous window" just resubmit after you get the email, and as always feel free to reach out if questions come up!
 
 ---
 
@@ -175,9 +195,9 @@ This is a fine for something like stats, but we have to start thinking about how
 notes:
 We have to think a little bit about how our data represents reality *and* how it is represented on disk.
 
-for example, both spatial data like that on a map and data that we use to compare salaries for example, are numerical data - we have lat/long and data value combinations for geographic data and numbers for salaries, but there is something fundementally different about how we would represent these two datasets on a visualization
+for example, both spatial data like that on a map and data that we use to compare salaries for example, are numerical data - we have lat/long and data value combinations for geographic data and numbers for salaries, but there is something fundamentally different about how we would represent these two datasets on a visualization
 
-Similarly for categorical data like with an organization, network, or a tree -- this data is much different than a table of categorical occurances.
+Similarly for categorical data like with an organization, network, or a tree -- this data is much different than a table of categorical occurrences.
 
 ---
 
@@ -569,7 +589,7 @@ image data is an excellent example of data where the orientation of each element
 <!-- .slide: data-background-image="../week02/images/stitch_nobg_tilted.png" data-background-size="contain"-->
 
 notes:
-how is this dataset "fundementally" different than a tabular dataset?
+how is this dataset "fundamentally" different than a tabular dataset?
 
 ---
 
@@ -614,7 +634,7 @@ Is information lost or confused?
 </div>
 
 notes: 
-with data that is enharently spatial in nature, we see we lose information and can potentially confuse our viewer if we shuffle data location and order.
+with data that is inherently spatial in nature, we see we lose information and can potentially confuse our viewer if we shuffle data location and order.
 
 ---
 
@@ -637,7 +657,7 @@ with data that is enharently spatial in nature, we see we lose information and c
 We'll start with manipulating image data and then move on to geographical data in a few lectures.
 
 notes: 
-with data that is enharently spatial in nature, we see we lose information and can potentially confuse our viewer if we shuffle data location and order.
+with data that is inherently spatial in nature, we see we lose information and can potentially confuse our viewer if we shuffle data location and order.
 
 ---
 
