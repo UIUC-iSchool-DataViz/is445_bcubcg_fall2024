@@ -17,13 +17,18 @@ date: 2023-08-29
 ## How to get help
 
 Jill P. Naiman - `jnaiman@illinois.edu`
- * Office Hours: Wed 11am-12:30pm (online)
+ * Office Hours: Tuesdays, 10:30am-11:45am (online)
  
-TA: Leon Hounnou - `hounnou2@illinois.edu`
- * Office Hours: Tues & Thurs 11am-12pm, Wed & Fri 4-6pm (online)
+TA: Tali Zacks - `tzacks2@illinois.edu`
+ * Office Hours: Tuesday 2-4pm, Wed & Thurs 1-3pm  (online)
 
-TA: Qiuyan Guo - `qqguo2@illinois.edu`
- * Office Hours: Mon, Tues, Wed, 8am-10am (online)
+TA: Sullam Jeoung  - `sjeoung2@illinois.edu`
+ * Office Hours: Wed 9am-12pm, Friday 8am-11am (online)
+
+TA: Vibhor Tyagi  - `vtyag@illinois.edu`
+ * Office Hours: Tuesday - 12pm to 2pm, Thursday - 11am to 2 pm, Friday - 11 am to 12 pm (online)
+
+See [Zoom Meeting Room on Canvas](https://canvas.illinois.edu/courses/47968/external_tools/327) to access meeting links.
 
  
 Other: 
@@ -33,13 +38,13 @@ Other:
 
 ## Where resources are be located
 
- * Canvas: https://canvas.illinois.edu/courses/37444 - where the grades and assignments links will be posted
+ * Canvas: https://canvas.illinois.edu/courses/47968 - where the grades and assignments links will be posted
  
- * PrairieLearn: https://us.prairielearn.com/pl/course_instance/137563 - where assignments will be completed
+ * PrairieLearn: https://us.prairielearn.com/pl/course_instance/156868 - where assignments will be completed
 
- * Course webpage: https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2023/ - where lecture slides, notebooks, data & general course info will live.
+ * Course webpage: https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2024/ - where lecture slides, notebooks, data & general course info will live.
 
- * Slack: https://is445-fall2023.slack.com/ - the best place to ask questions in a `#homeworkX-questions` channel (or the `#general` channel for general questions)
+ * Slack: https://is445-fall2024.slack.com/ - the best place to ask questions in a `#homeworkX-questions` channel (or the `#general` channel for general questions)
  
 notes:
 
@@ -51,13 +56,12 @@ Also, we will be utilizing Slack for discussing homeworks with a dedicated chann
 
 ## Grading
 
- * 45% Homworks - "standard" assignments in prose or code form (see syllabus for some details about "required" assignments)
-   * Turns out, only 8 HW's!
- * 20% Lab assignments which allow for "real time" checking of answers and feedback
+ * 40% Standard "homework" assignments in prose or code form 
+ * 25% Lab assignments which allow for "real time" checking of answers and feedback
  * 5% Quizzes on the material covered in class
- * 30% Final project ([teaser trailer](https://jnaiman.github.io/online_cv_public_demo/))
+ * 30% Final project ([teaser trailer \#1](https://jnaiman.github.io/online_cv_public_demo/), [teaser trailer \#2](https://huggingface.co/spaces/jnaiman/my_test_demo))
  
-**We will drop the lowest homework score, however there are some required assignments.**
+**We will drop the lowest homework score, however there are some assignments we will not drop.**
 
 notes:
 
@@ -69,12 +73,8 @@ and those that are considered "prepratory" for the final project
 
 ## Assignment Listings
 
-Current assignment list on PrairieLearn: https://us.prairielearn.com/pl/course_instance/137563
- * caveat \# 1 - 0% until official "assigned" week (or we are finished testing, see upper-left ? box)
- * caveat \# 2 - there will be quizzes added
- * caveat \# 3 - may or may not be a Lab 5
- 
-Ongoing, "TODO" list of assignments: https://docs.google.com/spreadsheets/d/1dDfNkHXznHw-Ynz2-ID13I76vtZ-k9LkdVtURR-YeSE/edit?usp=sharing
+Current assignment list on PrairieLearn: https://us.prairielearn.com/pl/course_instance/156868
+ * caveat - 0% until official "assigned" week (or we are finished testing, see upper-left ? box)
 
 notes:
 How to see assignments:
@@ -134,10 +134,12 @@ We'll talk a bit about the kinds of data that are out there and their definition
 
 <!-- <img src="https://static.wixstatic.com/media/6efa5f_e6f70adbf18e41fd8e369abc4c309563~mv2.png/v1/fill/w_770,h_434,al_c,lg_1,q_85/Types%20of%20Data_Visual_PNG.webp"> -->
 
-<img src="https://mldoodles.com/eptoobym/2021/10/Data-Types-in-Machine-Learning-1024x1024.png" width=650>
+<!-- <img src="https://mldoodles.com/eptoobym/2021/10/Data-Types-in-Machine-Learning-1024x1024.png" width=650>-->
+
+<img src="https://365datascience.com/resources/blog/xzk3rl06exk-data-types.jpeg">
 
 notes:
-So, usually you're probably used to thinking about data like this - numerical or quantitative which is then broken down into discrete & continous.
+So, usually you're probably used to thinking about data like this - numerical or quantitative which is then broken down into discrete & continuous.
 
 Also categorical or qualitative data which is either ordered (ordinal) or unordered (nominal).
 
@@ -145,7 +147,9 @@ Also categorical or qualitative data which is either ordered (ordinal) or unorde
 
 <!-- <img src="https://static.wixstatic.com/media/6efa5f_e6f70adbf18e41fd8e369abc4c309563~mv2.png/v1/fill/w_770,h_434,al_c,lg_1,q_85/Types%20of%20Data_Visual_PNG.webp"> -->
 
-<img src="https://mldoodles.com/eptoobym/2021/10/Data-Types-in-Machine-Learning-1024x1024.png" width=650>
+<!-- <img src="https://mldoodles.com/eptoobym/2021/10/Data-Types-in-Machine-Learning-1024x1024.png" width=650>-->
+
+<img src="https://365datascience.com/resources/blog/xzk3rl06exk-data-types.jpeg">
 
 
 We need to dig a little deeper for data viz.
@@ -575,7 +579,7 @@ how is this dataset "fundementally" different than a tabular dataset?
 
 <div class="left">
 
-<img src="../week02/images/stitch_nobg_tilted.png" width="400px">
+<img src="../week01/images/stitch_nobg_tilted.png" width="400px">
 
 </div>
 
