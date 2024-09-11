@@ -3,7 +3,7 @@ title: Lecture 3.1 - Colors and Color maps, Types of viz
 layout: lecture
 description: >-
  How do colors work? What are the different ways we can map colors to values? What should we keep in mind when doing this?
-date: 2023-09-05
+date: 2024-09-16
 ---
 
 
