@@ -21,11 +21,6 @@ examples:
     title: Notebook from past class (2019)
     description: Extra notebook from 2019 class
 data:
-  - filename: building_inventory.csv
-    type: dataLink
-    title: Buildings dataset
-    description: Illinois buildings dataset
-    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv
   - filename: littleCorgiInHat.png
     type: dataLink
     title: Corgi in Hat
