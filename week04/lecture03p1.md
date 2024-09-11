@@ -574,14 +574,6 @@ green in the western world is Christmas, but green in the eastern world is Islam
 
 You're not always picking colors relative to each other, but relative to culture as well.
 
----
-
-## Color Meaning
-
-<img src="images/skintones.png" width="800"/>
-
-notes:
-Human skin color is a particularly SENSITIVE area of color psychology. Western culture often treats dark colors as "mysterious" or "evil" and this is largely rooted in a history of racial bias.
 
 ---
 
