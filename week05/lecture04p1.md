@@ -3,7 +3,7 @@ title: Lecture 4.1 - Widgets & Traitlets for Interactivity
 layout: lecture
 description: >-
  The basics of using Traitlets and data binding in visualization.
-date: 2023-09-10
+date: 2024-09-23
 ---
 
 ## Today's Main Topics
@@ -17,10 +17,10 @@ These will build to the viz engine `bqplot` for next week and Javascript in the 
 
 ## Last week
 
-<img src="images/data_viz_diagram_week3.png">
+<img src="../week04/images/data_viz_diagram_week3.png">
 
 notes:
-last week we covered the data management and practical programming aspects of data viz
+last week we colormaps and doing things with data, particularly in Pandas 
 
 ---
 
@@ -32,6 +32,12 @@ notes:
 now we will start linking these concepts together with code
 
 today will be very coding heavy so we will get lots of practice
+
+---
+
+## Reminder: How to find channels in Slack
+
+<img src="images/find_channels.png">
 
 ---
 
@@ -202,7 +208,7 @@ details in the Python coding part of the lecture
 
 ---
 
-## Widgets: Our old friends!
+## Widgets: We already know these folks!
 
 We can use the `ipywidgets` library to build out widgets in Jupyter notebooks.
 These widgets can be quite extensive with many different operations;
@@ -211,7 +217,7 @@ additionally, they can have substantial CSS styling.
 
 ---
 
-## Widgets: Our old friends!
+## Widgets: We already know these folks!
 
 We can use the `ipywidgets` library to build out widgets in Jupyter notebooks.
 These widgets can be quite extensive with many different operations;
