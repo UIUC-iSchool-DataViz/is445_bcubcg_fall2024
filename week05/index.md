@@ -28,11 +28,6 @@ data:
     title: Buildings dataset
     description: Illinois buildings dataset
     link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/building_inventory.csv
-  - filename: ufo-scrubbed-geocoded-time-standardized-00.csv
-    type: dataLink
-    title: The UFO Sitings Dataset (13Mb)
-    description: Data about world wide reports of UFO sitings
-    link: https://github.com/UIUC-iSchool-DataViz/is445_data/blob/main/ufo-scrubbed-geocoded-time-standardized-00.csv
   - filename: michigan_lld.flt
     type: dataLink
     title: Michigan Depth Map (86Mb)

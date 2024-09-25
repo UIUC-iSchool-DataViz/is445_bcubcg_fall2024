@@ -3,33 +3,9 @@ title: Lecture 5.2 - GitHub Pages Setup
 layout: lecture
 description: >-
  Getting set up with a github.io account
-date: 2023-09-21
+date: 2024-09-30
 ---
 
-## Today's Main Topics
-
- * More with bqplot
- * getting setup with github.io
-
-
-notes:
-some lecture, lab/homwork time!
-
----
-
-# Quiz \#3 Date Pushed Back (Viz Engines Covered Later)
-
-(This means there will be 2 quizzes around the same time -- feel free to get started on Quiz \#3 now!)
-
-notes:
-last 2 questions of quiz 3 are on viz engines, but making time for more lab time today
-
----
-
-# To bqplot!
-
-
----
 
 <br />
 <br />
@@ -105,19 +81,36 @@ notes: make note of your git name, we'll use this for "cloning" our github repo
 Step 5: Clone your repository
  * In command line do: ```git clone YOUR_REPO_LINK```
 
-Step 6: Add an [index.html file](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/indexfile/index.html) to this new folder, for example:
+---
 
-```{html}
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
-</html>
-```
+## github.io for publishing
+
+Step 5: Clone your repository
+ * In command line do: ```git clone YOUR_REPO_LINK```
+
+ #### You might be prompted to add in your credentials:
+
+<img src="images/stackoverflow.png" alt="url for image: https://stackoverflow.com/questions/65257503/cannot-commit-when-i-had-created-a-file-using-git"/>
+
+---
+
+## github.io for publishing
+
+Step 5: Clone your repository
+ * In command line do: ```git clone YOUR_REPO_LINK```
+
+ #### You might be prompted to add in your credentials:
+
+<img src="images/stackoverflow.png" alt="url for image: https://stackoverflow.com/questions/65257503/cannot-commit-when-i-had-created-a-file-using-git"/>
+
+See instructions for [setting up your credentials in Git](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git).
+
+
+---
+
+## github.io for publishing
+
+Step 6: Add an `index.html` file to this new folder (download via the link in Lab \#4).
 
 ---
 
@@ -134,6 +127,7 @@ Step 9: Push to your online repo
  
 Step 10: wait for your website to build and then check it out!
  * Link: ```https://YOUR_GITHUB_USER_NAME.github.io/```
+
 
 ---
 
@@ -162,10 +156,20 @@ you can also use the GUI interface to do this if you are more comfortable with t
 
 ## github.io for publishing
 
-<img src="images/githubPLcheck.png" width=600>
+<img src="images/github_labsetup_1.png" width=500>
 
 notes:
-you'll get some feedback instantaneously, and then the instructional team will give it a final once-over to make sure it is correct and input your final grade
+you'll get some feedback instantaneously as well as your grade
+
+---
+
+## github.io for publishing
+
+<img src="images/github_labsetup_2.png" width=500>
+
+notes:
+one final thing -- be sure you use the index.html file linked here in your lab instance!
+
 
 ---
 
@@ -186,16 +190,19 @@ you'll get some feedback instantaneously, and then the instructional team will g
 
 ---
 
-## Next week -- Prof. Jill out of town, "flipped" class for Lab \#4
+## Next week -- "flipped" class for Lab \#5
 
 In particular, I am assuming you have watched the [Part 2 Video](https://mediaspace.illinois.edu/media/t/1_k93hei8q) already before joining the class next week (video on Module page) *and* have looked at the prep notebook in Week 6.
 
-**Extra online office hours with TA Qiuyan Guo (see class Zoom page).**
+**We will spend the majority of class next week with time to work on Lab \#5.**
+
+**(Yes, this is a hint that Lab \#5 is a tough one!)**
 
 notes:
-**change of modality next week!**
+this is just a reminder!
 
-Qiuyan will have extra online hours during class time!
+---
 
-notes:
-a remidner!
+# To Python for more interactivity!
+
+---

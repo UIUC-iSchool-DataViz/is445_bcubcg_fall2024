@@ -8,9 +8,9 @@ examples:
     type: ipynbInClass
     title: In class Notebook, Week 6
     description: Prep notebook for this week
-  - filename: prep_notebook_week05.ipynb
+  - filename: prep_notebook_week06.ipynb
     type: ipynb
-    title: Prep Notebook, Week 5
+    title: Prep Notebook, Week 6
     description: Prep notebook for this week
   - filename: fall2019_examples_week05.ipynb
     type: ipynb
@@ -22,11 +22,11 @@ examples:
     type: ipynb
     title: spring2019_notes_week05_part2.ipynb
 data:
-  - filename: ufo-scrubbed-geocoded-time-standardized-cnames.csv
+  - filename: building_inventory.csv
     type: dataLink
-    title: The UFO Sitings Dataset (13Mb)
-    description: Data about world wide reports of UFO sitings
-    link:  https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/ufo-scrubbed-geocoded-time-standardized-cnames.csv
+    title: Buildings dataset
+    description: Illinois buildings dataset
+    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/building_inventory.csv
 ---
 
 # Continuing interactivity with bqplot
