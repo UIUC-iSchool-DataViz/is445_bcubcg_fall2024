@@ -110,7 +110,22 @@ See instructions for [setting up your credentials in Git](https://docs.github.co
 
 ## github.io for publishing
 
+Step 6: In the command line, move into your github.io folder with `cd <GITHUB USER NAME>.github.io`
+
+**Be aware:** you might have to put a full path to "cd" into like `cd /Users/jillnaiman/jnaiman.github.io`
+
 Step 6: Add an `index.html` file to this new folder (download via the link in Lab \#4).
+
+---
+
+## github.io for publishing
+
+Step 6: In the command line, move into your github.io folder with `cd <GITHUB USER NAME>.github.io`
+
+Be aware: you might have to put a full path to "cd" into like `cd /Users/jillnaiman/jnaiman.github.io`
+
+Step 6: Add an `index.html` file to this new folder (download via the link in Lab \#4).
+
 
 ---
 
