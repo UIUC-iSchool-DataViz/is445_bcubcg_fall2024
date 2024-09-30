@@ -101,7 +101,7 @@ Step 5: Clone your repository
 
  #### You might be prompted to add in your credentials:
 
-<img src="images/stackoverflow.png" alt="url for image: https://stackoverflow.com/questions/65257503/cannot-commit-when-i-had-created-a-file-using-git"/>
+<img src="images/stackoverflow.png" alt="url for image: https://stackoverflow.com/questions/65257503/cannot-commit-when-i-had-created-a-file-using-git"/ width=400>
 
 See instructions for [setting up your credentials in Git](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git).
 
