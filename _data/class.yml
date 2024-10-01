@@ -13,12 +13,12 @@ tas:
     name: Tali Zacks
     email: tzacks2@illinois.edu
     office: online
-    office_hours: TBD
+    office_hours: Tues 2-4pm, Wed 1-3pm, Fri 1-3pm
   -
     name: Vibhor Tyagi
     email: vtyag@illinois.edu
     office: online
-    office_hours: Tuesday - 12pm to 2pm, Thursday - 11am to 2 pm, Friday - 11 am to 12 pm
+    office_hours: Tues - 12pm to 2pm, Thurs - 11am to 2 pm, Fri - 11 am to 12 pm
 
 course:
   name: Data Visualization
