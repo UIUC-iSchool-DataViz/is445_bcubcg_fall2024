@@ -22,6 +22,15 @@ These are typically processed the day after the assignment is due (typically Thu
 
 ---
 
+## Quick note about Lab \#1
+
+If you turned in Lab \#2 before midnight of the due date, but got marked at 95% of your grade, please send us an email **before 5pm, 10/11** if you'd like us to take another look at your grade.
+
+notes:
+the due date of this assignment was set to earlier in the day, but that was confusing to some folks so we'll give you some points back if you send us an email before 5pm on 10/11 (this friday)
+
+---
+
 ## Where we are: Last week
 
 <img src="images/dataviz_map_lastweek_take2.png">
