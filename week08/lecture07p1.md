@@ -3,17 +3,13 @@ title: Lecture 7.1 - Maps!
 layout: lecture
 description: >-
  More about maps and their projections
-date: 2022-03-07
+date: 2024-10-15
 ---
 
 # "Temperature Taking" Quiz
 
 notes: 
 go over where this is!
-
----
-
-## Homework \#5 due date pushed back a few days
 
 ---
 
@@ -371,7 +367,7 @@ terrible maps are actually really great!
 
 ## JSON & GeoJSON
 
-<img src="../week02/images/jsonex.png">
+<img src="../week03/images/jsonex.png">
 
 notes:
 json is meant to be a way to store data that is "query" based - i.e. it lends itself to searches well
@@ -438,14 +434,6 @@ we'll get some practice with this in the coding portion of class
 
 ---
 
-<br>
-<br>
-<br>
-
-# Topic #3: Data & Viz Engines
-
----
-
 ## Access to geometry files
 
  1. GeoPandas
@@ -495,7 +483,7 @@ Map information sources:
  * [City of Champaign](https://gis-cityofchampaign.opendata.arcgis.com/)
  
 notes:
-we'll just touch on a few data sources, and you'll have the opportunity to explore a few more in the HW, specifically HW#8
+we'll just touch on a few data sources, and you'll have the opportunity to explore a few more in the HW, specifically HW#4
 
 ---
 
@@ -525,9 +513,13 @@ otherwise they are left for your reference
 
 ---
 
-# To Python!
+# To Viz Engines!
 
 ---
+
+---
+
+# Extra Items: CartoPy
 
 ---
 

@@ -3,24 +3,15 @@ title: Lecture 7.2 - Viz Engines
 layout: lecture
 description: >-
  A bit about Viz Engines
-date: 2023-09-21
+date: 2024-10-14
 ---
 
-## Today's Main Topics
-
- * A bit about Viz Engines
-
-
-notes:
-some lecture, lab/homwork time!
-
----
 
 <br />
 <br />
 <br />
 
-# TOPIC 1: Vizualization Engines
+# TOPIC 2: Visualization Engines
 
 notes: 
 since we are starting to explore our first new viz engine, it is worth spending some time thinking about some questions we might want to ask our selves about said engines
@@ -46,7 +37,7 @@ Does its plots look like plots I want to make?
  * What's the user interface like?
  * Is it declarative or is it procedural/imperative?
  
-notes: in the HW you will look at several different forms of interfaces for making the same plot and thought a bit about how a user of the viz might go about making different plots and how some pathways to viz might be more or less intative for you and your given task 
+notes: in the HW you will look at several different forms of interfaces for making the same plot and thought a bit about how a user of the viz might go about making different plots and how some pathways to viz might be more or less intuitive for you and your given task 
 
 ---
 
@@ -69,7 +60,7 @@ In this case, you might have to think carefully about how you share your viz wit
  * Non-copyleft: share, but don't necessarily need to share-alike
  * https://choosealicense.com/
  
-notes: this website has a bunch of "auto" generated licences, depending on what kind of license
+notes: this website has a bunch of "auto" generated licenses, depending on what kind of license
 you want *your* software to use
 
 If you are ever in a position to create software, you can check this out to see what sorts of options you have.
