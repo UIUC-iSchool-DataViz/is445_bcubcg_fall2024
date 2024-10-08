@@ -4,10 +4,11 @@ visible: true
 icon: undraw_Books_l33t.svg
 notitle: true
 examples:
-  - filename: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week11/prepMaterials
+  - filename: prepMaterials
     type: iodide
     title: Prep Streamlit App Files, Week 11
     description: In class notebook
+    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/main/week11/prepMaterials
   - filename: InClass
     type: iodide
     title: In class Streamlit App, Week 11
