@@ -4,13 +4,13 @@ visible: true
 icon: undraw_Around_the_world_re_n353.svg
 notitle: true
 examples:
-  - filename: inClass_week07.ipynb
+  - filename: inClass_week08.ipynb
     type: ipynb
     title: In class notebook
     description: Placeholder for in class coding
-  - filename: prep_notebook_week07.ipynb
+  - filename: prep_notebook_week08.ipynb
     type: ipynb
-    title: Prep Notebook, Week 7
+    title: Prep Notebook, Week 8
     description: Prep notebook for this week
   - filename: spring2019_prep_notebook_week07_part1.ipynb
     type: ipynb
@@ -22,32 +22,21 @@ examples:
     type: ipynb
     title: spring2019_prep_notebook_week07_part3.ipynb
 data:
-  - filename: ufo-scrubbed-geocoded-time-standardized-00.csv
+  - filename: building_inventory.csv
     type: dataLink
-    title: The UFO Sitings Dataset (13Mb)
-    description: Data about world wide reports of UFO sitings
-    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/ufo-scrubbed-geocoded-time-standardized-00.csv
-  - filename: total_export.csv
+    title: Buildings dataset
+    description: Illinois buildings dataset
+    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/building_inventory.csv
+  - filename: Champaign GIS Repo
     type: dataLink
-    title: State export data (8Kb)
-    description: Data about exports from each state
-    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/total_export.csv
-  - filename: market_map_data.csv
+    title: Champaign GIS Repo
+    description: Various GIS datasets provided by Champaign
+    link: https://gis-cityofchampaign.opendata.arcgis.com/search?collection=Dataset 
+  - filename: Census GIS Repo
     type: dataLink
-    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/market_map_data.csv
-    title: Surgery Charges Dataset (37Mb)
-    description: Surgery charges in different states
-library:
-  - filename: states_utils.py
-    type: libraryExternal
-    title: State export utilities (states_utils.py)
-    description: Python library, save to notebook folder or modify your path if you know how to do that
-    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/libraries/states_utils.py
-  - filename: us_state_abbrev.py
-    type: libraryExternal
-    title: US State abbreviations (us_state_abbrev.py)
-    description: Python library, save to notebook folder or modify your path if you know how to do that
-    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/libraries/us_state_abbrev.py
+    title: Census GIS Repo
+    description: GIS data provided by the US Census
+    link: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html 
 ---
 
 # Maps, maps and more maps
