@@ -99,6 +99,8 @@ have folks heard of huggingface?
 
 huggingface is a place where folks can share code/datasets and also host apps 
 
+You got a brief intro to huggingface in Lab 6!
+
 ---
 
 ## Spaces on HuggingFace

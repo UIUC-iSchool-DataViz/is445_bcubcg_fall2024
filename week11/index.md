@@ -4,13 +4,13 @@ visible: true
 icon: undraw_Books_l33t.svg
 notitle: true
 examples:
-  - filename: prep_script_week11.py
-    type: py
-    title: Prep script file, Week 11
+  - filename: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week11/prepMaterials
+    type: iodide
+    title: Prep Streamlit App Files, Week 11
     description: In class notebook
   - filename: InClass
     type: iodide
-    title: In class Streamlit App, Week 10
+    title: In class Streamlit App, Week 11
     description: Updating storage of Streamlit files in class
     link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week11/inClass
   # - filename: inClass_script_week11.py
