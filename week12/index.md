@@ -4,6 +4,11 @@ visible: true
 icon: undraw_good_doggy_4wfq.svg
 notitle: true
 examples:
+  - filename: jekyll tour notes.pdf
+    type: iodide
+    title: Jekyll Tour Notes
+    description: Prep Starboard Notebook
+    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/blob/main/week12/pdfs/jekyll%20tour%20notes.pdf
   - filename: prepMaterials
     type: iodide
     title: Prep Streamlit App Files, Week 12
