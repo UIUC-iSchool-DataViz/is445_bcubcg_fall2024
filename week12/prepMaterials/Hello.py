@@ -76,8 +76,3 @@ st.markdown("""
 Once this is done, we can then move the items from our original `app.py` file to each page.
  """)
 
-# day 2/3 -- "grab bag" of other things
-# multi-page apps? ==> maybe day 2? ==> does this work with HF apps??
-# Week 12 --  https://docs.streamlit.io/develop/tutorials/databases <- touch on but say we'll be just doing csv files
-# Week 12 -- embedding streamlit spaces on other webpages? wait until Jekyll? https://huggingface.co/docs/hub/en/spaces-sdks-streamlit#embed-streamlit-spaces-on-other-webpages
-
