@@ -1,12 +1,4 @@
 
-
-
-# day 2/3 -- "grab bag" of other things
-# multi-page apps? ==> maybe day 2? ==> does this work with HF apps??
-# Week 12 --  https://docs.streamlit.io/develop/tutorials/databases <- touch on but say we'll be just doing csv files
-# Week 12 -- embedding streamlit spaces on other webpages? wait until Jekyll? https://huggingface.co/docs/hub/en/spaces-sdks-streamlit#embed-streamlit-spaces-on-other-webpages
-
-
 #######################################################
 # 1. Getting setup -- using our HF template
 #######################################################
@@ -109,7 +101,7 @@ st.pyplot(fig)
 st.write('''The requirements.txt file contains all the packages needed 
          for our app to run.  These include (for our application):''')
 st.code('''
-streamlit
+streamlit==1.39.0
 altair
 numpy
 pandas
@@ -118,6 +110,8 @@ matplotlib
 
 # NOTE: for any package you want to use in your app.py file, you must include it in 
 #   the requirements.txt file!
+
+# Note #2: we specified a version of streamlit so we can use some specific widgets
 
 ### 3.3 Push these changes to HF -- README.md ###
 
@@ -132,12 +126,13 @@ emoji: 🏢
 colorFrom: blue   
 colorTo: gray
 sdk: streamlit
-sdk_version: 1.36.0
+sdk_version: 1.39.0
 app_file: app.py
 pinned: false
 license: mit
 ---
 ''')
+st.write("Note: the sdk version has to match what is in your requirements.txt (and with whatever widgets you want to be able to use).")
 
 # Some important things to note here:
 
@@ -232,9 +227,6 @@ Note here that we made use of text highlight [colors](https://docs.streamlit.io/
 
 st.subheader('Connecting Widgets and Plots')
 
-st.markdown("""
-We can also 
- """)
 
 st.markdown("""
 There are actually [many types of charts](https://docs.streamlit.io/develop/api-reference/charts) 
@@ -303,7 +295,7 @@ fig.tight_layout()
 fig.savefig(buf, format="png")
 st.image(buf, width = 500) # can mess around with width, figsize/etc
 
-st.write("Now, let's make this interactive")
+st.write("Now, let's make this interactive.")
 st.markdown("""We'll first use the [multiselect](https://docs.streamlit.io/develop/api-reference/widgets/st.multiselect) 
             tool in order to allow for multiple state selection. """)
 
@@ -403,44 +395,38 @@ if len(states_selected2) > 0: # here we set a default value for the slider, so n
     fig2.savefig(buf2, format="png")
     fig_col2.image(buf2, width = 400) # changed here to fit better
 else:
-    fig2,ax2 = plt.subplots(figsize=(4,8)) # this changed
-    extent2 = [bins.min(), bins.max(), 0, len(table.index)]
-    ax2.imshow(table.values, cmap='hot', interpolation='nearest', extent=extent2)
-    ax2.set_yticks(range(len(table.index)))
-    ax2.set_yticklabels(table.index)
+    min_range = student_teacher_ratio_range[0] # added
+    max_range = student_teacher_ratio_range[1] # added
+
+    df_subset2 = df[(df['Student_teacher_ratio'] >= min_range) & (df['Student_teacher_ratio']<=max_range)] # changed
+
+    # just 10 bins over the full range --> changed
+    bins2 = 10 #np.linspace(df['Student_teacher_ratio'].min(),df['Student_teacher_ratio'].max(), 10)
+
+    # make pivot table -- changed
+    table_sub2 = df_subset2.pivot_table(index='State', 
+                                  columns=pd.cut(df_subset2['Student_teacher_ratio'], bins2), 
+                                  aggfunc='size')
+
+    base_size = 4
+    fig2,ax2 = plt.subplots(figsize=(base_size,2*base_size)) # this changed too for different size
+    extent2 = [df_subset2['Student_teacher_ratio'].min(), 
+               df_subset2['Student_teacher_ratio'].max(), 
+               0, len(table_sub2.index)]
+    ax2.imshow(table_sub2.values, cmap='hot', interpolation='nearest', extent=extent2)
+    ax2.set_yticks(range(len(table_sub2.index)))
+    ax2.set_yticklabels(table_sub2.index)
+    #ax2.set_xticklabels()
 
     buf2 = BytesIO()
     fig2.tight_layout()
     fig2.savefig(buf2, format="png")
-    fig_col2.image(buf2, width = 500) # can mess around with width, figsize/etc
+    fig_col2.image(buf2, width = 400) # changed here to fit better
 
-# THEN: slider for range of student teacher ratios -- do the RANGE slider: https://docs.streamlit.io/develop/api-reference/widgets/st.slider
-
-# with st.expander('Favorite product by Gender within city'):
-#     column1, column2 = st.columns([3,1])
-        
-#     # Allow the user to select a gender.
-#     selected_gender = st.radio('What is your Gender:', df.gender.unique(), index = 0)
-
-#     # Apply gender filter.
-#     gender_product = df[df['gender'] == selected_gender]
-
-#     # Allow the user to select a city.
-#     select_city = column2.selectbox('Select City', df.sort_values('City').City.unique())
-
-#     # Apply city filter
-#     city_gender_product = gender_product[gender_product['City'] == select_city]
-
-#     # Use the city_gender_product dataframe as it has filters for gender and city.
-#     fig = px.histogram(city_gender_product.sort_values('product_line') ,x='product_line', y='gross_income', color = 'product_line',)
-
-#     if selected_gender == 'Male':
-#         st.write('What men buy most!')
-#     else:
-#         st.write('What female buy most!')
-
-#     st.plotly_chart(fig, use_container_width=True) 
-
-################################################
-# 5. TODO Multi-page apps (?) this might be for next week/extra
-################################################
+st.header('Push final page to HF')
+st.markdown("""When ready, do:""")
+st.code("""
+git add -A
+git commit -m "final push of day 1"
+git push
+ """)
