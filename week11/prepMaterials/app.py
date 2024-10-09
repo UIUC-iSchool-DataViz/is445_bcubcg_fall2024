@@ -228,6 +228,111 @@ Note here that we made use of text highlight [colors](https://docs.streamlit.io/
 
 ### 4.2 Connecting widgets with plots ###
 
+st.subheader('Connecting Widgets and Plots')
+
+st.markdown("""
+We can also 
+ """)
+
+st.markdown("""
+There are actually [many types of charts](https://docs.streamlit.io/develop/api-reference/charts) 
+            supported in Streamlit (including the Streamlit-based "Simple Charts"), 
+            though we will just mainly be focusing on [Altair-related](https://docs.streamlit.io/develop/api-reference/charts/st.altair_chart) plots 
+            and their interactivity options since we'll also be making use of these when 
+            we move to building Jekyll webpages.
+ """)
+
+st.markdown("""Since `matplotlib` is relatively familiar though, let's do a quick 
+            example using `pandas` and `matplotlib` to plot as 
+            Streamlit [does support `matplotlib`](https://docs.streamlit.io/develop/api-reference/charts/st.pyplot) 
+            as a plotting engine. """)
+
+st.markdown("""First, let's just make a simple plot with `pandas` and `matplotlib`. 
+            Let's re-do the matplotlib plots we did before with the mobility dataset 
+            with some interactivity. """)
+
+import pandas as pd
+import numpy as np
+
+# first, let's make a static plot:
+st.write("We'll start with a static plot:")
+# read in dataset
+df = pd.read_csv("https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv")
+
+# make bins along student-teacher ratio
+bins = np.linspace(df['Student_teacher_ratio'].min(),df['Student_teacher_ratio'].max(), 10)
+
+# make pivot table
+table = df.pivot_table(index='State', columns=pd.cut(df['Student_teacher_ratio'], bins), aggfunc='size')
+
+# our plotting code before was:
+st.code("""
+import matplotlib.pyplot as plt
+
+fig,ax = plt.subplots(figsize=(10,8))
+ax.imshow(table.values, cmap='hot', interpolation='nearest')
+ax.set_yticks(range(len(table.index)))
+ax.set_yticklabels(table.index)
+plt.show()
+ """)
+
+st.write("Let's translate it into something that will work with Streamlit:")
+
+import matplotlib.pyplot as plt
+
+fig,ax = plt.subplots() # this changed
+ax.imshow(table.values, cmap='hot', interpolation='nearest')
+ax.set_yticks(range(len(table.index)))
+ax.set_yticklabels(table.index)
+
+st.pyplot(fig) # this is different
+
+st.markdown("""But this is too big!  The trick is that we can save this as a buffer: """)
+
+from io import BytesIO
+
+fig,ax = plt.subplots(figsize=(4,8)) # this changed
+ax.imshow(table.values, cmap='hot', interpolation='nearest')
+ax.set_yticks(range(len(table.index)))
+ax.set_yticklabels(table.index)
+
+buf = BytesIO()
+fig.tight_layout()
+fig.savefig(buf, format="png")
+st.image(buf, width = 500) # can mess around with width, figsize/etc
+
+st.write("Now, let's make this interactive:")
+
+# for some inspiration, checking out the available things here: https://stackoverflow.com/questions/72211345/how-to-make-graph-using-streamlit-with-the-widget-but-theres-multiple-widget
+
+# **HERE: dropdown for which state -- use the multiselect: https://docs.streamlit.io/develop/api-reference/widgets/st.multiselect
+# THEN: slider for range of student teacher ratios -- do the RANGE slider: https://docs.streamlit.io/develop/api-reference/widgets/st.slider
+
+# with st.expander('Favorite product by Gender within city'):
+#     column1, column2 = st.columns([3,1])
+        
+#     # Allow the user to select a gender.
+#     selected_gender = st.radio('What is your Gender:', df.gender.unique(), index = 0)
+
+#     # Apply gender filter.
+#     gender_product = df[df['gender'] == selected_gender]
+
+#     # Allow the user to select a city.
+#     select_city = column2.selectbox('Select City', df.sort_values('City').City.unique())
+
+#     # Apply city filter
+#     city_gender_product = gender_product[gender_product['City'] == select_city]
+
+#     # Use the city_gender_product dataframe as it has filters for gender and city.
+#     fig = px.histogram(city_gender_product.sort_values('product_line') ,x='product_line', y='gross_income', color = 'product_line',)
+
+#     if selected_gender == 'Male':
+#         st.write('What men buy most!')
+#     else:
+#         st.write('What female buy most!')
+
+#     st.plotly_chart(fig, use_container_width=True) 
+
 ################################################
 # 5. TODO Multi-page apps (?) this might be for next week/extra
 ################################################
