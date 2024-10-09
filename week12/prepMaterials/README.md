@@ -1,5 +1,5 @@
 ---
-title: Prep notebook -- My Multi-page Streamlit App
+title: Prep notebook -- My Multi-page Streamlit App (Day 2)
 emoji: 🏢
 colorFrom: blue
 colorTo: gray
