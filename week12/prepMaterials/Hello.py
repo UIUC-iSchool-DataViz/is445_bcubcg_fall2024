@@ -65,20 +65,19 @@ Then, create four pages:
 1. `3_Altair_Plots.py`
 1. `4_Other_Tools.py`
             
+**NOTE: The formatting here of the file names is specific!** It determines their order and how they appear on the sidebar.
+            
 Each page will need to have:
 1. A `set_page_config` call, including a title and an icon
 1. A message displayed on page selection with a `sidebar.header` call
             """)
 
+st.markdown("""
+Once this is done, we can then move the items from our original `app.py` file to each page.
+ """)
 
 # day 2/3 -- "grab bag" of other things
 # multi-page apps? ==> maybe day 2? ==> does this work with HF apps??
 # Week 12 --  https://docs.streamlit.io/develop/tutorials/databases <- touch on but say we'll be just doing csv files
 # Week 12 -- embedding streamlit spaces on other webpages? wait until Jekyll? https://huggingface.co/docs/hub/en/spaces-sdks-streamlit#embed-streamlit-spaces-on-other-webpages
 
-
-
-
-################################################
-# 5. TODO Multi-page apps (?) this might be for next week/extra
-################################################
