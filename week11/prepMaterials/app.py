@@ -104,6 +104,16 @@ st.pyplot(fig)
 # In order to push these changes to HF and have things actually show up we need to 
 #   add the packages we've added to our requirements.txt file.
 
+st.write('''The requirements.txt file contains all the packages needed 
+         for our app to run.  These include (for our application):''')
+st.code('''
+streamlit
+altair
+numpy
+pandas
+matplotlib
+            ''')
+
 # NOTE: for any package you want to use in your app.py file, you must include it in 
 #   the requirements.txt file!
 
@@ -113,34 +123,108 @@ st.pyplot(fig)
 
 st.header('Build in HF: README.md & requirements.txt files')
 
-st.markdown('''
-title: Prep notebook -- My Streamlit App
-            
+st.code('''
+---
+title: Prep notebook -- My Streamlit App     
 emoji: 🏢
-            
-colorFrom: blue
-            
+colorFrom: blue   
 colorTo: gray
-            
 sdk: streamlit
-            
 sdk_version: 1.36.0
-            
 app_file: app.py
-            
 pinned: false
-            
 license: mit
-```
+---
 ''')
 
-# Some important things to 
+# Some important things to note here:
+
+st.write('Some important items to note about these:')
+st.markdown('''
+* the "emoji" is what will show up as an identifier on your homepage
+* the sdk *must* be streamlit
+* the "app_file" *must* link to the app file you are developing in
+            ''')
 
 ################################################
 # 4. TODO Quick intro to widgets
 ################################################
 
-### 4.1 A few widget examples ###
+st.header('Widgets in Streamlit apps')
+
+### 4.1 Widget basics: A few widget examples ###
+
+st.markdown("""
+These will be very similar to how we used the `ipywidgets` package in Jupyter notebooks.
+         """)
+
+st.markdown("""
+We won't go over all of them, but you can check out the [list of widgets](https://docs.streamlit.io/develop/api-reference/widgets) 
+            linked.
+""")
+
+st.markdown("""Let's try a few!""")
+
+st.subheader('Feedback Widget')
+
+st.markdown("""
+For example, we could try the [feedback widget](https://docs.streamlit.io/develop/api-reference/widgets/st.feedback).
+            """
+)
+st.markdown("""            
+            If we check out the docs for this widget, we see some familiar looking functions like 
+            `on_change` and the example they give looks very similar to an 
+            "observation" function that we built before using widgets:
+             """)
+
+st.code(
+"""
+sentiment_mapping = ["one", "two", "three", "four", "five"]
+selected = st.feedback("stars")
+if selected is not None:
+    st.markdown(f"You selected {sentiment_mapping[selected]} star(s).")
+""")
+
+# Let's give this a shot!
+
+st.write("How great are you feeling right now?")
+sentiment_mapping = ["one", "two", "three", "four", "five"] # map to these numers
+selected = st.feedback("stars")
+if selected is not None: # make sure we have a selection
+    st.markdown(f"You selected {sentiment_mapping[selected]} star(s).")
+    if selected < 1:
+        st.markdown('Sorry to hear you are so sad :(')
+    elif selected < 3:
+        st.markdown('A solid medium is great!')
+    else:
+        st.markdown('Fantastic you are having such a great day!')
+
+st.subheader('Radio Buttons')
+
+st.markdown("""
+Let's try out a [radio button](https://docs.streamlit.io/develop/api-reference/widgets/st.radio) example.
+""")
+
+favoriteViz = st.radio(
+    "What's your visualization tool so far?",
+    [":rainbow[Streamlit]", "vega-lite :sparkles:", "matplotlib :material/Home:"],
+    captions=[
+        "New and cool!",
+        "So sparkly.",
+        "Familiar and comforting.",
+    ],
+)
+
+if favoriteViz == ":rainbow[Streamlit]":
+    st.write("You selected Streamlit!")
+else:
+    st.write("You didn't select Streamlit but that's ok, Data Viz still likes you :grin:")
+
+st.markdown("""
+Note here that we made use of text highlight [colors](https://docs.streamlit.io/develop/api-reference/text/st.markdown) 
+            and [emoji's](https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/) 
+            and [icons](https://fonts.google.com/icons?icon.set=Material+Symbols&icon.style=Rounded).
+ """)
 
 ### 4.2 Connecting widgets with plots ###
 
