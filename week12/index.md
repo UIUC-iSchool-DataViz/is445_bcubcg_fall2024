@@ -4,29 +4,16 @@ visible: true
 icon: undraw_good_doggy_4wfq.svg
 notitle: true
 examples:
-  - filename: jekyll tour notes.pdf
+  - filename: prepMaterials
     type: iodide
-    title: Jekyll Tour Notes
-    description: Prep Starboard Notebook
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2023/blob/main/week10/pdfs/jekyll%20tour%20notes.pdf
-  - filename: In Class Jekyll Files
-    type: iodide
-    title: In class Jekyll materials, Week 11
-    description: Updating storage of Idyll files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2023/tree/master/week11/inClass
-  - filename: Prep Jekyll Files
-    type: iodide
-    title: Prep Jekyll materials, Week 11
-    description: We'll be building toward a webpage like <a href="https://jnaiman.github.io/online_cv_public/">this</a> today using <a href="https://jekyllrb.com/">Jekyll</a>+<a href="https://altair-viz.github.io/index.html">Altair</a>. 
-    link: https://github.com/jnaiman/online_cv_spring2023
-  - filename: inClass_week11.ipynb
-    type: ipynb
-    title: In Class Notebook, Week 11
+    title: Prep Streamlit App Files, Week 12
     description: In class notebook
-  - filename: prep_notebook_week11.ipynb
-    type: ipynb
-    title: Prep Notebook, Week 11
-    description: Prep notebook for this week
+    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/main/week12/prepMaterials
+  - filename: InClass
+    type: iodide
+    title: In class Streamlit App, Week 12
+    description: Updating storage of Streamlit files in class
+    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week12/inClass
 data:
   - filename: mobility.csv
     type: dataLink
