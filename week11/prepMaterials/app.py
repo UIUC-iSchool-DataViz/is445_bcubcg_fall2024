@@ -15,6 +15,8 @@
 #   PL and then I'll move to my local installation of my template so that I can make 
 #   sure I am pushing code at various intervals so folks can check that out.
 
+# NOTE: during this process, you can click on "Always Rerun" for automatic updates.
+
 # See the class notes on this with some photos for reference!
 # **this has to be implemented!**
 
@@ -301,11 +303,117 @@ fig.tight_layout()
 fig.savefig(buf, format="png")
 st.image(buf, width = 500) # can mess around with width, figsize/etc
 
-st.write("Now, let's make this interactive:")
+st.write("Now, let's make this interactive")
+st.markdown("""We'll first use the [multiselect](https://docs.streamlit.io/develop/api-reference/widgets/st.multiselect) 
+            tool in order to allow for multiple state selection. """)
 
-# for some inspiration, checking out the available things here: https://stackoverflow.com/questions/72211345/how-to-make-graph-using-streamlit-with-the-widget-but-theres-multiple-widget
+# vertical alignment so they end up side by side
+fig_col, controls_col = st.columns([2,1], vertical_alignment='center')
 
-# **HERE: dropdown for which state -- use the multiselect: https://docs.streamlit.io/develop/api-reference/widgets/st.multiselect
+# multi-select
+states_selected = controls_col.multiselect('Which states do you want to view?', table.index.values)
+
+if len(states_selected) > 0:
+    df_subset = df[df['State'].isin(states_selected)] # changed
+
+    # make pivot table -- changed
+    table_sub = df_subset.pivot_table(index='State', 
+                                  columns=pd.cut(df_subset['Student_teacher_ratio'], bins), 
+                                  aggfunc='size')
+
+    base_size = 4
+    # this resizing doesn't 100% work great
+    #factor = len(table.index)*1.0/df['State'].nunique()
+    #if factor == 0: factor = 1 # for non-selections
+    #fig,ax = plt.subplots(figsize=(base_size,2*base_size*factor)) # this changed too for different size
+    fig,ax = plt.subplots(figsize=(base_size,2*base_size)) # this changed too for different size
+    # extent is (xmin, xmax, ymax (buttom), ymin (top))
+    extent = [bins.min(), bins.max(), 0, len(table_sub.index)]
+    ax.imshow(table_sub.values, cmap='hot', interpolation='nearest', 
+              extent=extent)
+    ax.set_yticks(range(len(table_sub.index)))
+    ax.set_yticklabels(table_sub.index)
+    #ax.set_xticklabels(bins)
+
+    buf = BytesIO()
+    fig.tight_layout()
+    fig.savefig(buf, format="png")
+    fig_col.image(buf, width = 400) # changed here to fit better
+else:
+    fig,ax = plt.subplots(figsize=(4,8)) # this changed
+    extent = [bins.min(), bins.max(), 0, len(table.index)]
+    ax.imshow(table.values, cmap='hot', interpolation='nearest', extent=extent)
+    ax.set_yticks(range(len(table.index)))
+    ax.set_yticklabels(table.index)
+    #ax.set_xticklabels(bins)
+
+    buf = BytesIO()
+    fig.tight_layout()
+    fig.savefig(buf, format="png")
+    fig_col.image(buf, width = 500) # can mess around with width, figsize/etc
+
+
+st.markdown(""" 
+Now let's add more in by including a [range slider](https://docs.streamlit.io/develop/api-reference/widgets/st.slider) 
+            widget.
+""")
+
+# vertical alignment so they end up side by side
+fig_col2, controls_col2 = st.columns([2,1], vertical_alignment='center')
+
+# multi-select
+states_selected2 = controls_col2.multiselect('Which states do you want to view?', 
+                                             table.index.values, key='unik1155') 
+#                                            had to pass unique key to have double widgets with same value
+
+# range slider -- added
+student_teacher_ratio_range = controls_col2.slider("Range of student teacher ratio:", 
+                                                   df['Student_teacher_ratio'].min(), 
+                                                   df['Student_teacher_ratio'].max(), 
+                                                   (0.25*df['Student_teacher_ratio'].mean(), 
+                                                    0.75*df['Student_teacher_ratio'].mean()))
+
+# note all the "2's" here, probably will just update the original one
+if len(states_selected2) > 0: # here we set a default value for the slider, so no need to have a tag
+    min_range = student_teacher_ratio_range[0] # added
+    max_range = student_teacher_ratio_range[1] # added
+
+    df_subset2 = df[(df['State'].isin(states_selected2)) & (df['Student_teacher_ratio'] >= min_range) & (df['Student_teacher_ratio']<=max_range)] # changed
+
+    # just 10 bins over the full range --> changed
+    bins2 = 10 #np.linspace(df['Student_teacher_ratio'].min(),df['Student_teacher_ratio'].max(), 10)
+
+    # make pivot table -- changed
+    table_sub2 = df_subset2.pivot_table(index='State', 
+                                  columns=pd.cut(df_subset2['Student_teacher_ratio'], bins2), 
+                                  aggfunc='size')
+
+    base_size = 4
+    fig2,ax2 = plt.subplots(figsize=(base_size,2*base_size)) # this changed too for different size
+    extent2 = [df_subset2['Student_teacher_ratio'].min(), 
+               df_subset2['Student_teacher_ratio'].max(), 
+               0, len(table_sub2.index)]
+    ax2.imshow(table_sub2.values, cmap='hot', interpolation='nearest', extent=extent2)
+    ax2.set_yticks(range(len(table_sub2.index)))
+    ax2.set_yticklabels(table_sub2.index)
+    #ax2.set_xticklabels()
+
+    buf2 = BytesIO()
+    fig2.tight_layout()
+    fig2.savefig(buf2, format="png")
+    fig_col2.image(buf2, width = 400) # changed here to fit better
+else:
+    fig2,ax2 = plt.subplots(figsize=(4,8)) # this changed
+    extent2 = [bins.min(), bins.max(), 0, len(table.index)]
+    ax2.imshow(table.values, cmap='hot', interpolation='nearest', extent=extent2)
+    ax2.set_yticks(range(len(table.index)))
+    ax2.set_yticklabels(table.index)
+
+    buf2 = BytesIO()
+    fig2.tight_layout()
+    fig2.savefig(buf2, format="png")
+    fig_col2.image(buf2, width = 500) # can mess around with width, figsize/etc
+
 # THEN: slider for range of student teacher ratios -- do the RANGE slider: https://docs.streamlit.io/develop/api-reference/widgets/st.slider
 
 # with st.expander('Favorite product by Gender within city'):
