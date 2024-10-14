@@ -13,6 +13,15 @@ go over where this is!
 
 ---
 
+# "Temperature Taking" Quiz
+
+# Lab \#5
+
+notes: 
+**vibes check**
+
+---
+
 ## Where we are: Last week
 
 <img src="images/dataviz_lastweek_t2.png">
