@@ -42,7 +42,7 @@ data:
 
 # Designing for the web with vega-lite & Altair & Streamlit
 
-Using Altair to publish in Python and an introduction to Streamlit.
+Using Altair create interactive visualizations in Python and an introduction to Streamlit.
 
 
 **NOTE**: For Python, only a subset of libraries are supported. See ongoing list [here](https://github.com/iodide-project/pyodide/tree/master/packages).
