@@ -41,4 +41,4 @@ Full corgi dataset available [here](corg/corgiData_countries_full_2020.json).
 
  1. <a href="https://streamlit.io/">Streamlit docs</a>
  2. <a href="https://huggingface.co/docs/hub/en/spaces-sdks-streamlit">Streamlit on HuggingFace</a> with a focus on <a href="https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app">Multi-page apps</a>
- 
+ 3. <a href="https://medium.com/@imanuelyosi/deploy-your-streamlit-web-app-using-hugging-face-7b9cddb11148">This blog post for a walkthrough of deploying a Streamlit space on HuggingFace</a>
