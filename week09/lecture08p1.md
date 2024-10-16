@@ -3,7 +3,7 @@ title: Lecture 8.1 - Intro, Choosing viz & Online viz platforms
 layout: lecture
 description: >-
  Choosing what viz type to use
-date: 2023-10-10
+date: 2024-10-21
 ---
 
 ## Last Week
@@ -181,7 +181,7 @@ Zomygod what is even happening right now.
 
 notes:
 Sometimes we want to show data in a proportion and show connections.
-This often happens for hierarcical data.
+This often happens for hierarchical data.
 
 Here in this example we want to show proportions of land based mammals that
 are popular at the zoo and then as we move out we subdivide by the individual
@@ -204,5 +204,5 @@ animal species.
 </table>
 
 notes:
-For heirarchical data, you can nest some of these other formats.
+For hierarchical data, you can nest some of these other formats.
 

@@ -3,7 +3,7 @@ title: Lecture 8.2 - Vega/Vega-lite
 layout: lecture
 description: >-
  Introduction to Vega/Vega-lite
-date: 2023-10-10
+date: 2024-10-21
 include_vega: true
 setup_script: setup_script.js
 ---
@@ -36,6 +36,9 @@ You can also use `vega-lite` directly with the online editor at:
 
 https://vega.github.io/editor/
 
+notes:
+**wait until python notebook to go through the editor**
+
 ---
 
 ## vega-lite in context - Web Viz
@@ -57,7 +60,7 @@ Then we'll have a *very* hand-wavy intro to how javascript/web dev works
 
 ## Status Update: What's Left
 
-Today, we are introducing the *second to last* major tool we will use: [vega-lite](https://vega.github.io/vega-lite/).
+Today, we are introducing the last few major tools that we will use: [vega-lite](https://vega.github.io/vega-lite/), which drives [Altair](https://altair-viz.github.io/index.html). 
 
 After this: 
  *  [Streamlit](https://streamlit.io/) + [Altair](https://altair-viz.github.io/index.html) (hosted on [HuggingFace](https://huggingface.co/docs/hub/en/spaces-sdks-streamlit), with JavaScript dev within as needed)
@@ -194,7 +197,7 @@ We have used several of these different interaction methods:
 notes:
 this will be an EXTREMELY hand wavy overview -- we want to get a sense of where our our interactive will be "housed" on our webpages
 
-PPP just is a fancy way of saying a communcations protocol that supports transmision between two routers w/ or w/o any host - https://en.wikipedia.org/wiki/Point-to-Point_Protocol
+(PPP just is a fancy way of saying a communications protocol that supports transmission between two routers w/ or w/o any host - https://en.wikipedia.org/wiki/Point-to-Point_Protocol)
 
 ---
 
@@ -224,7 +227,7 @@ the "garbage collector" is basically the part of JS that goes and figures out wh
 
 "single-threaded" means that code executes in order, except ...
 
-"asynchronous" means that *some* code gets handed off some code to the browser to be excecuted "in the background" - when the browser is finished, the tasks are "returned" -- we essentially already did thsi with some of our "on_change" and "on_click" stuff with bqplot!
+"asynchronous" means that *some* code gets handed off some code to the browser to be executed "in the background" - when the browser is finished, the tasks are "returned" -- we essentially already did this with some of our "on_change" and "on_click" stuff with bqplot!
 
 ---
 
@@ -338,9 +341,7 @@ button.on("click", function() {
 
 ## Basic Javascript
 
-We will go over a few things, and then move on to vega-lite.
-
-We'll use JavaScript mostly to "wrap" vega-lite around HTML elements.
+We'll use JavaScript mostly to "wrap" vega-lite around HTML elements, so won't make use of it directly, but the syntax is similar to Python:
 
 ```
 var myArray = [1, 2, 3, 4];
@@ -349,17 +350,10 @@ var myConcatString = "Hi " + "there " + 5;
 var myObject = {'a': 1, 'b': 2, 'c': [1, 2, 3, 4]};
 ```
 
-
----
-
-## vega-lite editor
-
-https://vega.github.io/editor/
-
 notes:
-we'll start by making a quick plot in the vega-lite editor
+the differences in syntax is mostly that we explicitly call things variables with "var" (vs constants with "const") and close definitions with semicolons 
 
-**open the vega-editor and spend some time with examples!!!**
+again, we won't really be using JavaScript directly
 
 ---
 
