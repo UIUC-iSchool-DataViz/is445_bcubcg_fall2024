@@ -4,6 +4,14 @@ visible: true
 icon: undraw_programmer_imem.svg
 notitle: true
 examples:
+  - filename: inClass_week10.ipynb
+    type: ipynb
+    title: In class notebook, Week 10
+    description: In class notebook
+  - filename: prep_notebook_week10.ipynb
+    type: ipynb
+    title: Prep notebook, Week 10
+    description: In class notebook
   - filename: prep_script_week10.py
     type: py
     title: Prep script file, Week 10
