@@ -41,11 +41,6 @@ examples:
     description: Prep Starboard Notebook, Fall 2021
     link: https://starboard.gg/nb/nXvyanN
 data:
-  - filename: GDP.csv
-    type: dataLink
-    title: The GDP dataset (online)
-    description: GDP dataset from FRED (stored online for easy linking in Starboard)
-    link:  https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/GDP.csv
   - filename: mobility.csv
     type: dataLink
     title: The Mobility dataset (online)

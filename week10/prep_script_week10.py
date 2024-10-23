@@ -20,7 +20,7 @@ st.title('This is my fancy app!')
 # 1. Open a "Terminal" by: View --> Terminal OR just the "Terminal" through the hamburger menu
 # 2. run in terminal with: "streamlit run <the app .py file>"
 # 3. click the "Open in Browser" link that pops up OR click on "Ports" and copy the URL
-# 4. Open a Simple Browswer with View --> Command Palette --> Simple Browser: Show
+# 4. Open a Simple Browser with View --> Command Palette --> Simple Browser: Show
 # 5. use the URL from prior steps as intput into this simple browser
 
 ### 1.1 Text in Streamlit ###
@@ -41,7 +41,7 @@ st.text("This is plain text.")
 
 # ... but we will be using the "write" command typically for consistency:
 st.write('This is also some text.')
-# You shoudl do whatever makes sense to you!
+# You should do whatever makes sense to you!
 
 ### 1.2 Layout elements ###
 st.subheader('Layouts')
@@ -74,7 +74,7 @@ st.image(img_data, caption='Some randomly generated data with NumPy.')
 
 
 ###############################################
-#  2. Vega-lite in Streamlit
+#  2. Vega-lite in Streamlit (might skip in class)
 ###############################################
 
 st.header('Vega-lite in Streamlit')
