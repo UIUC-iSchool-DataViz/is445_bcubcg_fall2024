@@ -23,7 +23,7 @@ You will have three general components:
 
 1. Viz for Self (Due November 20 - individual)
 1. Viz for Peers (Due December 4 - group)
-1. Viz for Others (Due December 11 (for feedback), December 18 (final) - group)
+1. Viz for Others (Due December 11 (for feedback), December 18 (final) - part group/part individual)
 
 Be aware:
  * **NO** extensions for these assignments.
