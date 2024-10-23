@@ -27,12 +27,22 @@ You will have three general components:
 
 Be aware:
  * **NO** extensions for these assignments.
- * There is a group-submission option (sign up announcement to be posted later this week).
+ * There is a group-submission option (sign up open, reminder in a few weeks!).
 
 note:
 there are NO extensions available -- you can't use one of your three HW extensions for these components
 
 also, parts 2 & 3 will be in a group, however you will pick your own groups AND you can be in a group of 1 if you want -- instructions about this process will be in an announcement later this week
+
+---
+
+## Groups (Parts 2 & 3)
+
+* Group size: maximum 4, minimum 1 (i.e. doing the final on your own)
+* Sign up on Canvas under `People` $\rightarrow$ `Groups`
+* Want to find a group?  Check out the **`#find-a-group-b-section`** channel on Slack (**make sure it is NOT the** `a-section` **that is another class!**)
+* Group sign-up closes November 11
+
 
 ---
 
