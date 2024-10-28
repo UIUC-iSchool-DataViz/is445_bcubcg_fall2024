@@ -28,3 +28,15 @@ st.image(img_data,
          caption='Random numpy data')
 
 st.header('Altair in Streamlit')
+import altair as alt
+
+mobility_url = 'https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv'
+
+scatters = alt.Chart(mobility_url).mark_point().encode(
+    x = 'Mobility:Q',
+    y=alt.Y('Population:Q', scale=alt.Scale(type='log')),
+    color=alt.Color('Income:Q',
+                    scale=alt.Scale(scheme='sinebow'),
+                    bin=alt.Bin(maxbin=5))
+)
+scatters
