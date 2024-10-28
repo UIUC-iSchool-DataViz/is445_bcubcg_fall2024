@@ -26,3 +26,5 @@ import numpy as np
 img_data = np.random.random((200,200))
 st.image(img_data, 
          caption='Random numpy data')
+
+st.header('Altair in Streamlit')
