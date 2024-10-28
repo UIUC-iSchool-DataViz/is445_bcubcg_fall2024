@@ -43,3 +43,7 @@ scatters
 
 st.markdown("""Add in altair charts with layout elements
  """)
+
+col1,col2 = st.columns([0.7, 0.25])
+col1.altair_chart(scatters, theme='streamlit',
+                  use_container_width=True)
