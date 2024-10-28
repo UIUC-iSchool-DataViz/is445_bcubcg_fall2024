@@ -13,3 +13,6 @@ st.text('This is some text.')
 col1,col2 = st.columns(2)
 col1.write('This is thing 1')
 col2.write('This is thing 2')
+
+# 2. Images
+st.subheader('Images')
