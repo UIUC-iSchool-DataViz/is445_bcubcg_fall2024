@@ -40,3 +40,6 @@ scatters = alt.Chart(mobility_url).mark_point().encode(
                     bin=alt.Bin(maxbins=5))
 )
 scatters
+
+st.markdown("""Add in altair charts with layout elements
+ """)
