@@ -70,6 +70,25 @@ githubAutoSyncJekyll(){
     }
 ```
 
+For streamlit apps, this command-equivalent is:
+```
+# auto github push a set of files for STREAMLIT apps
+# $1: streamlit directory; e.g. /Users/jnaiman/my_streamlit_app
+# $2: link to file to upload in repo; e.g. /Users/jnaiman/is445_bcubcg_fall2024/week11/inClass
+# $3: main github page to cd into to push like /Users/jnaiman/is445_bcubcg_fall2024 (i.e. the course webpage)
+githubAutoSyncStreamlit(){
+    # assume you want to copy everything
+
+    while [ true ]
+    do
+	cd $3
+	cp $1/* $2
+	source auto_commit.sh
+	sleep 15
+    done
+    }
+```
+
 ### To run locally
 
 bundle exec jekyll serve -l
