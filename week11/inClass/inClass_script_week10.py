@@ -107,3 +107,7 @@ selected = st.feedback("stars")
 if selected is not None: # only run if a star is selected
     if selected < 1:
         st.markdown("Sorry to hear you are so sad :(")
+    elif selected < 3:
+        st.markdown("A solid medium is great!")
+    else:
+        st.markdown("Fantastic to hear you are having a great day!")
