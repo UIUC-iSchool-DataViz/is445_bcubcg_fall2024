@@ -77,3 +77,7 @@ pandas
  """)
 
 st.header("Widgets in Streamlit apps")
+
+st.markdown("""Using markdown for a reminder, we can use
+            widgets in Streamlit (similar to `ipywidgets`).
+ """)
