@@ -68,3 +68,10 @@ st.pyplot(fig)
 
 st.write("""Note I have added some things to 
          the requirements.txt file. """)
+st.code("""
+streamlit==1.39.0
+altair
+numpy
+matplotlib
+pandas
+ """)
