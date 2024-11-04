@@ -3,3 +3,4 @@ altair
 numpy
 matplotlib
 pandas
+io
