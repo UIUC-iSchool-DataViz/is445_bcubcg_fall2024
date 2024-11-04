@@ -159,6 +159,7 @@ states_selected = controls_col.multiselect("Which states do you want to view", t
 
 if len(states_selected) > 0:
     df_subset = df[df['State'].isin(states_selected)]
-    st.write(df_subset)
+    #st.write(df_subset) # used to debug our selection
 else:
-    st.write(df)
+    #st.write(df) # used to debug selection
+    pass
