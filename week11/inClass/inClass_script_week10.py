@@ -52,3 +52,7 @@ col2.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAXjp6mzNlkMEE
 
 
 st.header("Day 2 (Week 11)")
+
+# Read in data with pandas
+import pandas as pd
+df = pd.read_csv(mobility_url)
