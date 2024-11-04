@@ -65,3 +65,6 @@ fig, ax = plt.subplots()
 df['Seg_income'].plot(kind='hist',ax=ax)
 #plt.show() # need to use streamlit infrastructure for this
 st.pyplot(fig)
+
+st.write("""Note I have added some things to 
+         the requirements.txt file. """)
