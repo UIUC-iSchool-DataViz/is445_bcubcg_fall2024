@@ -124,3 +124,9 @@ bins = np.linspace(df['Student_teacher_ratio'].min(),
 table = df.pivot_table(index='State', 
                        columns=pd.cut(df['Student_teacher_ratio'],bins),
                        aggfunc='size')
+
+fig, ax = plt.subplots()
+ax.imshow(table.values, cmap='hot', interpolation='nearest')
+ax.set_yticks(range(len(table.index)))
+ax.set_yticklabels(table.index)
+st.pyplot(fig)
