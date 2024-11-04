@@ -122,5 +122,5 @@ bins = np.linspace(df['Student_teacher_ratio'].min(),
 #bins # note -- this will be "pandas-like" in view
 
 table = df.pivot_table(index='State', 
-                       columns=pd.cut(df['Student_teacher_ratio']),bins,
-                       aggfun='size')
+                       columns=pd.cut(df['Student_teacher_ratio'],bins),
+                       aggfunc='size')
