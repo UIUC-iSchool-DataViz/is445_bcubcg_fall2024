@@ -155,3 +155,4 @@ st.markdown("""Let's make use of a
 fig_col, controls_col = st.columns([2,1], 
                                    vertical_alignment='center')
 
+states_selected = controls_col.multiselect("Which states do you want to view", table.index.values)
