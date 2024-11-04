@@ -115,3 +115,4 @@ if selected is not None: # only run if a star is selected
 st.subheader("Connecting Widgets to Plots")
 
 st.markdown("We'll start with a static plot:")
+
