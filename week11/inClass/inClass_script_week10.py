@@ -49,3 +49,6 @@ col1.altair_chart(scatters, theme='streamlit',
                   use_container_width=True)
 col2.markdown("Here is some text on the side of the plot.")
 col2.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAXjp6mzNlkMEEiMomUfTEMiX8NHpopoyyXg&s')
+
+
+st.header("Day 2 (Week 11)")
