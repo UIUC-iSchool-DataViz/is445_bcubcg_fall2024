@@ -188,4 +188,5 @@ else:
     buf = BytesIO()
     fig.tight_layout()
     fig.savefig(buf, format='png')
-    st.image(buf, width=500)
+    #st.image(buf, width=500)
+    fig_col.image(buf, width=400)
