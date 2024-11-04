@@ -160,6 +160,20 @@ states_selected = controls_col.multiselect("Which states do you want to view", t
 if len(states_selected) > 0:
     df_subset = df[df['State'].isin(states_selected)]
     #st.write(df_subset) # used to debug our selection
+    table_subset = df_subset.pivot_table(index='State', 
+                       columns=pd.cut(df_subset['Student_teacher_ratio'],bins),
+                       aggfunc='size')
+    fig, ax = plt.subplots(figsize=(4,8))
+    extent = [bins.min(),bins.max(), 0, len(table_subset.index)] # xmin, xmax, ymin, ymax
+    ax.imshow(table.values, cmap='hot', interpolation='nearest',extent=extent)
+    ax.set_yticks(range(len(table.index)))
+    ax.set_yticklabels(table.index)
+    #st.pyplot(fig)
+
+    buf = BytesIO()
+    fig.tight_layout()
+    fig.savefig(buf, format='png')
+    st.image(buf, width=500)
 else:
     #st.write(df) # used to debug selection
     pass
