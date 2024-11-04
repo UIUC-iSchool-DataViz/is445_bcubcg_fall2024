@@ -75,3 +75,5 @@ numpy
 matplotlib
 pandas
  """)
+
+st.header("Widgets in Streamlit apps")
