@@ -149,6 +149,9 @@ fig.tight_layout()
 fig.savefig(buf, format='png')
 st.image(buf, width=500)
 
+st.markdown("""Let's make use of a 
+            [multiselect widget](https://docs.streamlit.io/develop/api-reference/widgets/st.multiselect) """)
+
 fig_col, controls_col = st.columns([2,1], 
                                    vertical_alignment='center')
 
