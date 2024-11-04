@@ -120,3 +120,7 @@ st.markdown("We'll start with a static plot:")
 bins = np.linspace(df['Student_teacher_ratio'].min(),
                    df['Student_teacher_ratio'].max(), 10)
 #bins # note -- this will be "pandas-like" in view
+
+table = df.pivot_table(index='State', 
+                       pd.cut(df['Student_teacher_ratio']),bins,
+                       aggfun='size')
