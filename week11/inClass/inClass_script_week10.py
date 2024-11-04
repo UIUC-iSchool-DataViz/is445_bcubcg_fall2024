@@ -156,3 +156,7 @@ fig_col, controls_col = st.columns([2,1],
                                    vertical_alignment='center')
 
 states_selected = controls_col.multiselect("Which states do you want to view", table.index.values)
+
+if len(states_selected) > 0:
+    df_subset = df[df['State'].isin(states_selected)]
+    st.write(df_subset)
