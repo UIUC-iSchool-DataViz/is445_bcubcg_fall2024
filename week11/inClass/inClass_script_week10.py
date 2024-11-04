@@ -100,3 +100,7 @@ if selected is not None:
 # selected = st.feedback("stars")
 # if selected is not None:
 #     st.markdown(f"You selected {sentiment_mapping[selected]} star(s).")
+
+st.write("How are you feeling right now?")
+sentiment_mapping = ["one", "two", "three", "four", "five"]
+selected = st.feedback("stars")
