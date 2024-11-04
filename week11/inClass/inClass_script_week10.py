@@ -104,3 +104,6 @@ if selected is not None:
 st.write("How are you feeling right now?")
 sentiment_mapping = ["one", "two", "three", "four", "five"]
 selected = st.feedback("stars")
+if selected is not None: # only run if a star is selected
+    if selected < 1:
+        st.markdown("Sorry to hear you are so sad :(")
