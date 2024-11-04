@@ -9,16 +9,16 @@ examples:
     title: Jekyll Tour Notes
     description: Prep Starboard Notebook
     link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/blob/main/week12/pdfs/jekyll%20tour%20notes.pdf
-  - filename: prepMaterials
+  - filename: prepStreamlit
     type: iodide
     title: Prep Streamlit App Files, Week 12
     description: In class notebook
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/main/week12/prepMaterials
-  - filename: InClass
+    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/main/week12/prepStreamlit
+  - filename: inClassStreamlit
     type: iodide
     title: In class Streamlit App, Week 12
     description: Updating storage of Streamlit files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week12/inClass
+    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week12/inClassStreamlit
 data:
   - filename: mobility.csv
     type: dataLink
@@ -27,7 +27,7 @@ data:
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv
 ---
 
-# More web dev with Streamlit & Altair
+# More web dev with Streamlit, Altair and Jekyll
 
 We talk a little bit about publishing and carry on with Streamlit and add in some Altair in Python/Streamlit.
 
