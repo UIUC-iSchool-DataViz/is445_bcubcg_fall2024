@@ -173,7 +173,19 @@ if len(states_selected) > 0:
     buf = BytesIO()
     fig.tight_layout()
     fig.savefig(buf, format='png')
-    st.image(buf, width=500)
+    #st.image(buf, width=500)
+    fig_col.image(buf, width=400)
 else:
     #st.write(df) # used to debug selection
-    pass
+    #pass
+    fig, ax = plt.subplots(figsize=(4,8))
+    extent = [bins.min(),bins.max(), 0, len(table.index)] # xmin, xmax, ymin, ymax
+    ax.imshow(table.values, cmap='hot', interpolation='nearest',extent=extent)
+    ax.set_yticks(range(len(table.index)))
+    ax.set_yticklabels(table.index)
+    #st.pyplot(fig)
+
+    buf = BytesIO()
+    fig.tight_layout()
+    fig.savefig(buf, format='png')
+    st.image(buf, width=500)
