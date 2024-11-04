@@ -83,3 +83,6 @@ st.markdown("""Using markdown for a reminder, we can use
  """)
 
 st.subheader('Feedback Widget')
+
+st.markdown("""We could try the [feedback widget](https://docs.streamlit.io/develop/api-reference/widgets/st.feedback)
+ """)
