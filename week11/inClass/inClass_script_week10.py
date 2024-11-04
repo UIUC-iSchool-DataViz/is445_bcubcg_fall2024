@@ -84,5 +84,14 @@ st.markdown("""Using markdown for a reminder, we can use
 
 st.subheader('Feedback Widget')
 
-st.markdown("""We could try the [feedback widget](https://docs.streamlit.io/develop/api-reference/widgets/st.feedback).
+st.markdown("""We could try the 
+            [feedback widget](https://docs.streamlit.io/develop/api-reference/widgets/st.feedback).
  """)
+
+st.markdown("Using the following code:")
+st.code("""
+sentiment_mapping = ["one", "two", "three", "four", "five"]
+selected = st.feedback("stars")
+if selected is not None:
+    st.markdown(f"You selected {sentiment_mapping[selected]} star(s).")
+         """)
