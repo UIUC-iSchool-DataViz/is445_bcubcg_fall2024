@@ -131,3 +131,20 @@ ax.imshow(table.values, cmap='hot', interpolation='nearest',extent=extent)
 ax.set_yticks(range(len(table.index)))
 ax.set_yticklabels(table.index)
 st.pyplot(fig)
+
+# trick for imshow command -- save as buffer so that its not so
+#  big and we can format the size the way we want
+# (might not need to do this for all plots)
+
+from io import BytesIO
+fig, ax = plt.subplots(figsize=(4,8))
+extent = [bins.min(),bins.max(), 0, len(table.index)] # xmin, xmax, ymin, ymax
+ax.imshow(table.values, cmap='hot', interpolation='nearest',extent=extent)
+ax.set_yticks(range(len(table.index)))
+ax.set_yticklabels(table.index)
+#st.pyplot(fig)
+
+buf = BytesIO()
+fig.tight_layout()
+fig.savefig(buf, format='png')
+st.image(buf, width=500)
