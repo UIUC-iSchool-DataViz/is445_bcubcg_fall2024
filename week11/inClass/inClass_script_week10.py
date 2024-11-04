@@ -126,7 +126,8 @@ table = df.pivot_table(index='State',
                        aggfunc='size')
 
 fig, ax = plt.subplots()
-ax.imshow(table.values, cmap='hot', interpolation='nearest')
+extent = [bins.min(),bins.max(), 0, len(table.index)] # xmin, xmax, ymin, ymax
+ax.imshow(table.values, cmap='hot', interpolation='nearest',extent=extent)
 ax.set_yticks(range(len(table.index)))
 ax.set_yticklabels(table.index)
 st.pyplot(fig)
