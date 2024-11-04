@@ -9,16 +9,16 @@ examples:
     title: Jekyll Tour Notes
     description: Prep Starboard Notebook
     link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/blob/main/week12/pdfs/jekyll%20tour%20notes.pdf
-  - filename: prepStreamlit
+  - filename: prepJekyll
     type: iodide
-    title: Prep Streamlit App Files, Week 12
+    title: Prep Jekyll Files, Week 12
     description: In class notebook
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/main/week12/prepStreamlit
-  - filename: inClassStreamlit
+    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/main/week12/prepJekyll
+  - filename: inClassJekyll
     type: iodide
-    title: In class Streamlit App, Week 12
-    description: Updating storage of Streamlit files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week12/inClassStreamlit
+    title: In class Jekyll Files, Week 12
+    description: Updating storage of Jekyll files in class
+    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week12/inClassJekyll
 data:
   - filename: mobility.csv
     type: dataLink
