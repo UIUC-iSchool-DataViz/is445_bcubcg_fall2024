@@ -151,3 +151,4 @@ st.image(buf, width=500)
 
 fig_col, controls_col = st.columns([2,1], 
                                    vertical_alignment='center')
+
