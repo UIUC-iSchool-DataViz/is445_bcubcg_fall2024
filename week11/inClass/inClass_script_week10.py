@@ -119,4 +119,4 @@ st.markdown("We'll start with a static plot:")
 # bins along student to teacher ratio
 bins = np.linspace(df['Student_teacher_ratio'].min(),
                    df['Student_teacher_ratio'].max(), 10)
-bins
+#bins # note -- this will be "pandas-like" in view
