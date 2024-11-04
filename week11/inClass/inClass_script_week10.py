@@ -57,4 +57,5 @@ st.header("Day 2 (Week 11)")
 import pandas as pd
 df = pd.read_csv(mobility_url)
 
-df
+#df
+st.write(df)
