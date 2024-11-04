@@ -165,9 +165,9 @@ if len(states_selected) > 0:
                        aggfunc='size')
     fig, ax = plt.subplots(figsize=(4,8))
     extent = [bins.min(),bins.max(), 0, len(table_subset.index)] # xmin, xmax, ymin, ymax
-    ax.imshow(table.values, cmap='hot', interpolation='nearest',extent=extent)
-    ax.set_yticks(range(len(table.index)))
-    ax.set_yticklabels(table.index)
+    ax.imshow(table_subset.values, cmap='hot', interpolation='nearest',extent=extent)
+    ax.set_yticks(range(len(table_subset.index)))
+    ax.set_yticklabels(table_subset.index)
     #st.pyplot(fig)
 
     buf = BytesIO()
