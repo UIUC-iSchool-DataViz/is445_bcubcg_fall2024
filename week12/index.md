@@ -9,6 +9,18 @@ examples:
     title: Jekyll Tour Notes
     description: Prep Starboard Notebook
     link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/blob/main/week12/pdfs/jekyll%20tour%20notes.pdf
+  - filename: inClass_week12.ipynb
+    type: ipynb
+    title: In Class Notebook, Week 12
+    description: In class notebook
+  - filename: prep_notebook_week12_part1.ipynb
+    type: ipynb
+    title: Prep Notebook, Week 12, Part 1
+    description: Prep notebook for this week
+  - filename: prep_notebook_week12_part2.ipynb
+    type: ipynb
+    title: Prep Notebook, Week 12, Part 2
+    description: Prep notebook for this week
   - filename: prepJekyll
     type: iodide
     title: Prep Jekyll Files, Week 12
