@@ -1,18 +1,32 @@
 ---
-title: Lecture 11.1 - Publishing & more in Jekyll
+title: Lecture 11.1 - More on Publishing & Jekyll Infrastructure
 layout: lecture
 description: >-
  Publishing your viz, vega-lite with Altair in a Jekyll page
 date: 2022-10-25
 ---
 
-## This Week/Last Week
+## Last Week
 
-<img src='images/week10.png'>
+<img src='../week11/images/week11.png'>
+
+notes:
+
+Last week we practiced using Altair in Streamlit apps and also did a few things with widgets in Streamlit.
+
+We also talked a bit about validation techniques and general places to publish on the web.
+
+---
+
+## This week
+
+<img src='images/week12.png'>
 
 notes:
 
 Today we'll move on from Streamlit apps to building some Jekyll webpages.
+
+We'll also talk a bit more about publishing for the web, with a focus on Jekyll
 
 ---
 
@@ -28,7 +42,7 @@ Today we'll move on from Streamlit apps to building some Jekyll webpages.
 <br/>
 <br/>
 
-## Reminder: Group sign ups will close Nov 7th
+## Reminder: Group sign ups will close Nov 11th
 
 ---
 
@@ -57,9 +71,11 @@ Other fun things:
  * Publishing
    * Jekyll
    * Github Pages
+   * Circle back to Streamlit (if time, might be next week)
    
 notes:
-**back from streamlit**
+
+We might have time to circle back to more complex stuff with Streamlit, but we'll start with Jekyll stuff since you'll need that for HW6.
 
 ---
 
@@ -87,11 +103,11 @@ Jekyll is a [static site generator](https://www.cloudflare.com/learning/performa
  
 </div>
 <div class="right">
-<img src="images/jekyll_landing.png">
+<img src="images/jekyll/jekyll_landing.png">
 </div>
 
 notes:
-* static site generator means cite is generated in HTML from data + templetes -- instead of writing the format for each of our class pages, there is a format that is used to make certain files into slides, prep notebook links, etc
+* static site generator means cite is generated in HTML from data + templates -- instead of writing the format for each of our class pages, there is a format that is used to make certain files into slides, prep notebook links, etc
 
 ---
 
@@ -105,7 +121,7 @@ Jekyll is a [static site generator](https://www.cloudflare.com/learning/performa
  
 </div>
 <div class="right">
-<img src="images/jekyll_landing.png">
+<img src="images/jekyll/jekyll_landing.png">
 </div>
 
 notes:
@@ -126,7 +142,7 @@ Jekyll is a [static site generator](https://www.cloudflare.com/learning/performa
  
 </div>
 <div class="right">
-<img src="images/jekyll_landing.png">
+<img src="images/jekyll/jekyll_landing.png">
 </div>
 
 notes:
@@ -147,7 +163,7 @@ Jekyll is a [static site generator](https://www.cloudflare.com/learning/performa
  
 </div>
 <div class="right">
-<img src="images/jekyll_landing.png">
+<img src="images/jekyll/jekyll_landing.png">
 </div>
 
 notes:
@@ -169,7 +185,7 @@ Jekyll is a [static site generator](https://www.cloudflare.com/learning/performa
  
 </div>
 <div class="right">
-<img src="images/jekyll_landing.png">
+<img src="images/jekyll/jekyll_landing.png">
 </div>
 
 notes:
@@ -191,7 +207,7 @@ Jekyll is a [static site generator](https://www.cloudflare.com/learning/performa
  
 </div>
 <div class="right">
-<img src="images/jekyll_landing.png">
+<img src="images/jekyll/jekyll_landing.png">
 </div>
 
 notes:
@@ -201,10 +217,10 @@ notes:
 
 ## Jekyll installation
 
-We did this in Homework #5 [recall instructions here](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2023/week09/installation_instructions_week11.html).
+We did this already in Lab #6!
 
 notes:
-the good news is that if we recall homework #5 we already installed jekyll!  now we'll actually start making modifcations to your webpages in order to host your own content (and final projects) and publishing to github
+the good news is that if we recall lab #6 we already installed jekyll!  now we'll actually start making modifications to your webpages in order to host your own content (and final projects) and publishing to github
 
 ---
 
@@ -218,7 +234,7 @@ the good news is that if we recall homework #5 we already installed jekyll!  now
 
 <div class="right">
 
-<img src="images/yaml.png">
+<img src="images/jekyll/yaml.png">
 
 </div>
 
@@ -236,13 +252,13 @@ yaml is sort of like a cousin of markdown, and is used to use pre-determined for
 
  * Main configuration's are done with [YAML](https://yaml.org/) files/syntax
  
-<img src="images/snapshot_of_onlinecv.png">
+<img src="images/jekyll/snapshot_of_onlinecv.png">
  
 </div>
 
 <div class="right">
 
-<img src="images/yaml.png">
+<img src="images/jekyll/yaml.png">
 
 </div>
 
@@ -258,15 +274,15 @@ for example if you look in the online-cv template that we are using for class, y
 
  * Main configuration's are done with [YAML](https://yaml.org/) files/syntax
  
-<img src="images/snapshot_of_onlinecv.png">
+<img src="images/jekyll/snapshot_of_onlinecv.png">
 
-<img src="images/config2.png">
+<img src="images/jekyll/config2.png">
  
 </div>
 
 <div class="right">
 
-<img src="images/yaml.png">
+<img src="images/jekyll/yaml.png">
 
 </div>
 
@@ -286,7 +302,7 @@ notes:
 
 <div class="right">
 
-<img src="images/blogpost_yaml.png">
+<img src="images/jekyll/blogpost_yaml.png">
 
 (see `_posts/` directory, example blog post)
 
@@ -295,7 +311,7 @@ notes:
 notes:
 there will also often be a bits of yaml formatted text at the top of individual pages
 
-for example, if you open the example blog post in a text editor at the top you'll see little snippets of yaml inbetween three dashes -- this is the configurations for EACH blog post that will change with the blog post.
+for example, if you open the example blog post in a text editor at the top you'll see little snippets of yaml in between three dashes -- this is the configurations for EACH blog post that will change with the blog post.
 
 From the example here we can see that each post has a title, subject tags, a style and color, and a description
 
@@ -311,7 +327,7 @@ From the example here we can see that each post has a title, subject tags, a sty
 
 <div class="right">
 
-<img src="images/liquid_examples.png">
+<img src="images/jekyll/liquid_examples.png">
 
 </div>
 
@@ -333,7 +349,7 @@ dynamic content just means content that changes based on behavior of the user
 
 <div class="right">
 
-<img src="images/liquid_examples.png">
+<img src="images/jekyll/liquid_examples.png">
 
 </div>
 
@@ -356,7 +372,7 @@ content is then stored in variables, which can be use to print the tags of the v
 
 <div class="right">
 
-<img src="images/liquid_examples.png">
+<img src="images/jekyll/liquid_examples.png">
 
 </div>
 
@@ -380,7 +396,7 @@ you can also use logic to do flow control based on the values of the object tag 
 
 <div class="right">
 
-<img src="images/liquid_examples.png" alt="source: Diptendra Bagchi">
+<img src="images/jekyll/liquid_examples.png" alt="source: Diptendra Bagchi">
 
 </div>
 
@@ -405,7 +421,7 @@ there are also some "built in" filters which can help control how content looks,
 
 <div class="right">
 
-<img src="images/layouts.png" alt="source: Diptendra Bagchi">
+<img src="images/jekyll/layouts.png" alt="source: Diptendra Bagchi">
 
 </div>
 
@@ -430,7 +446,7 @@ there are also some "built in" filters which can help control how content looks,
 
 <div class="right">
 
-<img src="images/layouts.png" alt="source: Diptendra Bagchi">
+<img src="images/jekyll/layouts.png" alt="source: Diptendra Bagchi">
 
 </div>
 
@@ -440,7 +456,7 @@ We can ignore all of this if we use a template that supports what we want to do!
 notes:
 the nice thing is that, for the most part, we don't have to worry about any of this!
 
-we'll be using a templete for our work with Jekyll for this class, so you won't have to deal with most of this -- we'll be using mostly markdown an just a bit of HTML with our Python and vega-lite skills!
+we'll be using a template for our work with Jekyll for this class, so you won't have to deal with most of this -- we'll be using mostly markdown an just a bit of HTML with our Python and vega-lite skills!
 
 ---
 
@@ -491,7 +507,7 @@ Cons:
  * [Squarespace](https://en.wikipedia.org/wiki/Squarespace)
 
 
-<img src="images/otherwebdev.png" width="800" alt="source: Diptendra Bagchi"/>
+<img src="images/jekyll/otherwebdev.png" width="800" alt="source: Diptendra Bagchi"/>
 
 
 notes:
@@ -505,12 +521,12 @@ there will be pros/cons to using these as well!  like cost, but also the cost of
 
 ## vega-lite with Jekyll
 
-<img src="images/vegalite_jekyll3.png">
+<img src="images/jekyll/vegalite_jekyll3.png">
 
 Link to interactive version [here](https://jnaiman.github.io/online_cv_public/projects/1-vega-lite-project).
 
 notes:
-using the templete, we'll also be able to support including our vega-lite creations by saving them as json snippets and including them in `assets/json`
+using the template, we'll also be able to support including our vega-lite creations by saving them as json snippets and including them in `assets/json`
 
 ---
 
@@ -518,7 +534,7 @@ using the templete, we'll also be able to support including our vega-lite creati
 
 We will use [Altair](https://altair-viz.github.io/index.html) to translate between any Python analysis and vega-lite json's (we did this in your Homework #1 as a test):
 
-<img src="images/altair1.png" height="600px">
+<img src="images/jekyll/altair1.png" height="600px">
 
 notes:
 
@@ -531,7 +547,7 @@ we actually already used a tiny bit of altair to generate a plot in your test ho
 
 ## Summary
 
-<img src="images/words2.png" width="700"/>
+<img src="images/jekyll/words2.png" width="700"/>
 
 notes:
 So we just covered a lot of new terms. The worldwide web is a real patchwork of different languages with different syntaxes meant to do different things. Don't let it overwhelm you. They tend to be pretty simple to start, and only get more complicated when you need them to.
@@ -542,7 +558,7 @@ and again, we'll be using templates and mostly markdown -- all of this more comp
 
 ## Summary
 
-<img src="images/html.png" width="700"/>
+<img src="images/jekyll/html.png" width="700"/>
 
 notes:
 We talked about this before, but just as a reminder:
@@ -559,7 +575,7 @@ this is what all of our templates will be modifying for us
 
 ## Summary
 
-<img src="images/css.png" width="700"/>
+<img src="images/jekyll/css.png" width="700"/>
 
 notes:
 you might have heard of something like CSS to modify the styles of HTML pages
@@ -575,12 +591,12 @@ again, our templates and yaml options will take care of all of this for us
 
 ## Summary
 
-<img src="images/javascript2.png" width="700"/>
+<img src="images/jekyll/javascript2.png" width="700"/>
 
 notes:
 JavaScript is a dynamic programming language that runs natively on webpages that we've been using the past few weeks in Streamlit. If you want to run programming logic in a webpage, you use javascript. If you see interactivity or animated effects on a website, you can generally expect they were written in javascript. 
 
-now we will just use altair+vega-lite and our Jekyll templete to make this happen "under the hood" for us!
+now we will just use altair+vega-lite and our Jekyll template to make this happen "under the hood" for us!
 
 ---
 
