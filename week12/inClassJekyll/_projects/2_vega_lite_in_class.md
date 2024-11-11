@@ -25,6 +25,7 @@ This is a plot I saved from Altair in Python.
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/population_scatter.json" style="width: 100%"></vegachart>
 
+<vegachart schema-url="{{ site.baseurl }}/assets/json/population_scatter_container.json" style="width: 100%"></vegachart>
 
 
 ## Search The Data & Methods
