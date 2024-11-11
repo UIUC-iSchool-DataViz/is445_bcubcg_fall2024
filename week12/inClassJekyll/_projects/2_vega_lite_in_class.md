@@ -34,6 +34,9 @@ This is not so for side-by-side plots:
 But I can mess with the individual plot sizes:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/mobility_small.json" style="width: 100%"></vegachart>
 
+### Can also pull from a dataframe
+<vegachart schema-url="{{ site.baseurl }}/assets/json/mobility_from_df.json" style="width: 100%"></vegachart>
+
 
 
 ## Search The Data & Methods
