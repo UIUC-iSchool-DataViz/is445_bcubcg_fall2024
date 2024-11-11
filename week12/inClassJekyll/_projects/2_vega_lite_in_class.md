@@ -60,6 +60,6 @@ Below is where we can put some links to both the data and the analysis code as b
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/blob/main/week12/inClass_week12.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/jnaiman/jnaiman.github.io/blob/master/python_notebooks/inClass_week12.ipynb" text="The Analysis" %}
 </div>
 
