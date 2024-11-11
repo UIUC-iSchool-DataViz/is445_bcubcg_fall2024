@@ -25,6 +25,7 @@ This is a plot I saved from Altair in Python.
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/population_scatter.json" style="width: 100%"></vegachart>
 
+For single (non-faceted) plots, we can make them change with the container:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/population_scatter_container.json" style="width: 100%"></vegachart>
 
 
