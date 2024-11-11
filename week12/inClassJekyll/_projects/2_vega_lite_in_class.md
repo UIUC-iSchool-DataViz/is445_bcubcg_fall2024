@@ -21,6 +21,7 @@ custom_js:
 
 ## Example 2.1: From Altair
 
+<vegachart schema-url="{{ site.baseurl }}/assets/json/population_scatter.json" style="width: 100%"></vegachart>
 
 
 
