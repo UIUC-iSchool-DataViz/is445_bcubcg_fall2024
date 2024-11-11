@@ -28,6 +28,8 @@ This is a plot I saved from Altair in Python.
 For single (non-faceted) plots, we can make them change with the container:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/population_scatter_container.json" style="width: 100%"></vegachart>
 
+This is not so for side-by-side plots: 
+
 
 ## Search The Data & Methods
 
