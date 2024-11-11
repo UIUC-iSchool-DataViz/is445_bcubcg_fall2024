@@ -1,6 +1,6 @@
 ---
 name: In Class Example
-tools: [Python, HTML, vega-lite]
+tools: [Python, HTML, vega-lite, Altair]
 image: assets/pngs/cars.png
 description: This is an in class example.
 custom_js:
