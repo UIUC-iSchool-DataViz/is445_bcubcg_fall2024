@@ -31,6 +31,9 @@ For single (non-faceted) plots, we can make them change with the container:
 This is not so for side-by-side plots: 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/mobility_container.json" style="width: 100%"></vegachart>
 
+<vegachart schema-url="{{ site.baseurl }}/assets/json/mobility_small.json" style="width: 100%"></vegachart>
+
+
 
 ## Search The Data & Methods
 
