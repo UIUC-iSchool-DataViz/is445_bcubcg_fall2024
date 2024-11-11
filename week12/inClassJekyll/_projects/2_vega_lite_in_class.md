@@ -2,7 +2,7 @@
 name: In Class Example
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/cars.png
-description: This is a "showcase" project that uses vega-lite for interactive viz!
+description: This is an in class example.
 custom_js:
   - vega.min
   - vega-lite.min
