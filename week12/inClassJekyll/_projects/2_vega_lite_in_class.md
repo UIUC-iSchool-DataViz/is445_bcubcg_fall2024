@@ -15,8 +15,7 @@ custom_js:
 
 
 
-We can use a vegachart HTML tag like so:
-
+## Example 1: Directly from Vega-editor
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/from_vega_editor.json" style="width: 100%"></vegachart>
 
