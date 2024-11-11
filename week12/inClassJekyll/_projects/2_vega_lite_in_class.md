@@ -17,6 +17,8 @@ custom_js:
 
 ## Example 1: Directly from Vega-editor
 
+**Be careful:** make sure the full data-path is in the URL in the vega-editor.
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/from_vega_editor.json" style="width: 100%"></vegachart>
 
 
