@@ -19,11 +19,11 @@ examples:
     title: In class Jekyll materials, Week 13
     description: Updating storage of Jekyll files in class
     link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week13/inClassJekyll
-  - filename: Prep Jekyll Files
+  - filename: prepJekyll
     type: iodide
-    title: Prep Jekyll materials, Week 13
-    description: We'll be building toward a webpage like <a href="https://jnaiman.github.io/online_cv_public/">this</a> today using <a href="https://jekyllrb.com/">Jekyll</a>+<a href="https://altair-viz.github.io/index.html">Altair</a>. 
-    link: https://github.com/jnaiman/online_cv_public/blob/main/_example_projects/
+    title: Prep Jekyll Files, Week 12
+    description: In class notebook
+    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/main/week13/prepJekyll
 data:
   - filename: mobility.csv
     type: dataLink
