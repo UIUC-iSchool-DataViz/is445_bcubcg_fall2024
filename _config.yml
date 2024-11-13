@@ -37,6 +37,8 @@ plugins:
 # to override the default setting.
 exclude:
  - "*/inClass/*"
+ - "*/inClassJekyll/*"
+ - "*/prepJekyll/*"
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
