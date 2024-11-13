@@ -39,9 +39,9 @@ data:
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv
 ---
 
-# More web dev with Streamlit, Altair and Jekyll
+# More web dev with Altair and Jekyll
 
-We talk a little bit about publishing and carry on with Streamlit and add in some Altair in Python/Streamlit.
+We talk a little bit about publishing and add in some Altair in Python/Jekyll.
 
 ## Extra files
 
@@ -51,6 +51,4 @@ Full corgi dataset available [here](corg/corgiData_countries_full_2020.json).
 
 ## Optional reading list
 
- 1. <a href="https://streamlit.io/">Streamlit docs</a>
- 2. <a href="https://huggingface.co/docs/hub/en/spaces-sdks-streamlit">Streamlit on HuggingFace</a> with a focus on <a href="https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app">Multi-page apps</a>
- 3. <a href="https://medium.com/@imanuelyosi/deploy-your-streamlit-web-app-using-hugging-face-7b9cddb11148">This blog post for a walkthrough of deploying a Streamlit space on HuggingFace</a>
+ 1. <a href="https://jekyllrb.com/tutorials/home/">Jekyll Tutorials (hit "Next" to see them at bottom)</a>
