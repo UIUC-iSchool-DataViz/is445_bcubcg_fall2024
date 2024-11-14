@@ -3,22 +3,22 @@ title: Lecture 12.1 - 3D graphics, Intro to SciViz
 layout: lecture
 description: >-
  How your computer and the internet process 3D graphics.  What is scientific visualization? 
-date: 2023-11-07
+date: 2024-11-18
 ---
 
 ## Last Week
 
-<img src="../week11/images/week12.png">
+<img src="../week12/images/week12.png">
 
 notes:
-so far, we've been covering a bit of javascript and vega-lite as some new viz engines and using them in Jekyll
+so far, we've been covering a bit of javascript and vega-lite as some new viz engines and using them in Jekyll and Streamlit
 
 
 ---
 
 ## This Week
 
-<img src="images/week13_spring2023.png">
+<img src="images/week13.png">
 
 notes:
 
@@ -28,7 +28,7 @@ today we'll discuss a bit about how rendering 3D objects to make them look "phot
 
 ## After break: Guest Lecture from NCSA's Advanced Visualization Lab
 
-Special guest speaker next Tuesday!
+Special guest speaker Week 14!
 
 notes:
 ... which we'll also hear more about from the AVL, i.e. the Advanced Visualization Lab which will be giving us a special guest lecture next week!
@@ -53,11 +53,11 @@ you can stay in the main room, or there will be breakout rooms for you as well!
 
 ## Going further with Streamlit
 
-Other fun things:
+Other fun things (that we won't get to):
   * [Embed Streamlit apps in webpages](https://huggingface.co/docs/hub/en/spaces-sdks-streamlit#embed-streamlit-spaces-on-other-webpages)
   * [Chat apps & LLMs](https://docs.streamlit.io/develop/tutorials/llms)
   * [Linking to external data sources](https://docs.streamlit.io/develop/tutorials/databases)
-  * [Point clouds and 3D Maps (pydeck)](https://docs.streamlit.io/develop/api-reference/charts/st.pydeck_chart)
+  * [Point clouds and 3D Maps with deckgl (pydeck)](https://docs.streamlit.io/develop/api-reference/charts/st.pydeck_chart)
 
 ---
 
@@ -700,7 +700,7 @@ WebGL implements the same set of tools for rendering through a web browser. This
 
 ---
 
-## [Three.js](https://threejs.org/)
+## 3D renderers for data: [Three.js](https://threejs.org/)
 
 Three.js is a javascript library that uses WebGL to create interactive 3D graphics that render in web browsers. 
 
@@ -711,16 +711,26 @@ again, we won't be using it in this class, but feel free to check it out on your
 
 ---
 
-## SketchFab & ipyvolume
+## 3D renderers for data: SketchFab & ipyvolume
 
-SketchFab uses WebGL to render YOUR 3D data in a 3D viewport in a web browser. 
+SketchFab uses WebGL to render your 3D data in a 3D viewport in a web browser. 
 
 [SketchFab.com](https://sketchfab.com)
 
 ipyvolume uses WebGL to render volumes to your jupyter notebook.
 
 notes:
-we'll start playing with ipyvolume a bit next week!  And if we have time, we'll talk about sketchfab as well
+there are some prep notebooks on this as well, but no ipyvolume for us this semester!
+
+---
+
+## 3D renderers for data: deckgl
+
+Point clouds and 3D Maps with [deckgl (pydeck) in Streamlit](https://docs.streamlit.io/develop/api-reference/charts/st.pydeck_chart)
+
+
+notes:
+We also won't cover this, but feel free to check out the resources at this link!
 
 ---
 
@@ -732,7 +742,7 @@ we'll start playing with ipyvolume a bit next week!  And if we have time, we'll 
  * VMD
  * Vapor
  
-notes: there is a lot of overlap between what scientists & visual effects/special effects artists are trying to do, but their data formats are usually quite differnt
+notes: there is a lot of overlap between what scientists & visual effects/special effects artists are trying to do, but their data formats are usually quite different
  
 In week 15-ish, we'll look alot at "yt" for scientific viz
 
@@ -764,7 +774,7 @@ notes: here is a quick comparision chart to show key differences between a packa
 
 [Astroblend](www.astroblend.com)
 
-### More from the NCSA's Advanced Visualization Lab next week!
+### More from the NCSA's Advanced Visualization Lab after the break!
 
 notes:
 several of us at the NCSA worked on ytini so that Houdini could use some of the features of yt natively!
@@ -780,5 +790,3 @@ Let's take a look!
 notes:
 
 * go over
-* should we push this back a few days (maybe that friday?)
-
