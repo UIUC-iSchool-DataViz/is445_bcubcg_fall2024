@@ -38,6 +38,9 @@ import altair as alt
 
 mobility_url = 'https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv'
 
+df = pd.read_csv(mobility_url)
+
+
 scatters = alt.Chart(mobility_url).mark_point().encode(
     x = 'Mobility:Q',
     y=alt.Y('Population:Q', scale=alt.Scale(type='log')),
