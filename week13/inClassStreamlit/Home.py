@@ -1,6 +1,7 @@
 # we will often times use an app.py instead of a workbook so here is just a placeholder for that kind of file as well!
 import streamlit as st
 import matplotlib.pyplot as plt
+import pandas as pd
 
 st.set_page_config(
     page_title='Hello',
@@ -39,7 +40,6 @@ import altair as alt
 mobility_url = 'https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv'
 
 df = pd.read_csv(mobility_url)
-
 
 scatters = alt.Chart(mobility_url).mark_point().encode(
     x = 'Mobility:Q',
