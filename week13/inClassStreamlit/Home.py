@@ -1,5 +1,6 @@
 # we will often times use an app.py instead of a workbook so here is just a placeholder for that kind of file as well!
 import streamlit as st
+import matplotlib.pyplot as plt
 
 st.set_page_config(
     page_title='Hello',
@@ -58,28 +59,8 @@ col2.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAXjp6mzNlkMEE
 
 st.header("Day 2 (Week 11)")
 
-# Read in data with pandas
-import pandas as pd
-df = pd.read_csv(mobility_url)
 
-#df
-st.write(df)
 
-import matplotlib.pyplot as plt
-fig, ax = plt.subplots()
-df['Seg_income'].plot(kind='hist',ax=ax)
-#plt.show() # need to use streamlit infrastructure for this
-st.pyplot(fig)
-
-st.write("""Note I have added some things to 
-         the requirements.txt file. """)
-st.code("""
-streamlit==1.39.0
-altair
-numpy
-matplotlib
-pandas
- """)
 
 st.header("Widgets in Streamlit apps")
 
