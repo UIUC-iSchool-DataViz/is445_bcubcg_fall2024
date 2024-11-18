@@ -34,34 +34,6 @@ img_data = np.random.random((200,200))
 st.image(img_data, 
          caption='Random numpy data')
 
-st.header('Altair in Streamlit')
-import altair as alt
-
-mobility_url = 'https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv'
-
-df = pd.read_csv(mobility_url)
-
-scatters = alt.Chart(mobility_url).mark_point().encode(
-    x = 'Mobility:Q',
-    y=alt.Y('Population:Q', scale=alt.Scale(type='log')),
-    color=alt.Color('Income:Q',
-                    scale=alt.Scale(scheme='sinebow'),
-                    bin=alt.Bin(maxbins=5))
-)
-scatters
-
-st.markdown("""Add in altair charts with layout elements
- """)
-
-col1,col2 = st.columns([0.7, 0.25])
-col1.altair_chart(scatters, theme='streamlit',
-                  use_container_width=True)
-col2.markdown("Here is some text on the side of the plot.")
-col2.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAXjp6mzNlkMEEiMomUfTEMiX8NHpopoyyXg&s')
-
-
-st.header("Day 2 (Week 11)")
-
 
 
 
