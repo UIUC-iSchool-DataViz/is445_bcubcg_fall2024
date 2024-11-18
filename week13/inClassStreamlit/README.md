@@ -1,5 +1,5 @@
 ---
-title: In Class Example (Week 11)
+title: In Class Example (Week 11 and 13)
 emoji: 🏢
 colorFrom: green
 colorTo: gray
