@@ -789,4 +789,4 @@ Let's take a look!
 
 notes:
 
-* go over
+* go over final project part 2!
