@@ -1,14 +1,14 @@
 ---
-title: Lecture 13.2 - A bit more with Jekyll
+title: Lecture 13.1 - Announcements, Final Project Info
 layout: lecture
 description: >-
- Just a bit more things about Jekyll!
-date: 2023-11-16
+ A few announcements!
+date: 2024-12-02
 ---
 
 ## Last/This Week
 
-<img src="../week12/images/week13_spring2023.png">
+<img src="../week13/images/week13.png">
 
 notes:
 we've been doing some stuff with Jekyll and we'll finish up a few things and then get a special guest lecture!
@@ -34,10 +34,11 @@ you can stay in the main room, or there will be breakout rooms for you as well!
 ## Notes on Final, Part 3
 
 Due dates:
- 1. First draft of Part 3 -- due Dec 1, will get feedback course participants 
- 1. Post your link in the Canvas forum to get feedback from classmates -- Dec 2 (**all group members must do this**)
- 1. Provide feedback for 3 randomly assigned classmates -- due Dec 8
- 1. Final chance to resubmit your Part 3 -- Dec 11
+ 1. First draft of Part 3 -- due Dec 11, will get feedback course participants 
+ 1. Post your link in the Canvas forum to get feedback from classmates -- Dec 12 (**all group members must do this**)
+ 1. Provide feedback for 3 randomly assigned classmates -- due Dec 15
+ 1. Final chance to resubmit your Part 3 -- Dec 18
+ 1. Submit video about final project -- Dec 18
  
 **Please be aware these are hard deadlines -- no extensions available**
  
@@ -49,6 +50,8 @@ because we have to get grades in by a certain time, these due dates are hard one
 your "first" part 3 submission CAN be a work in progress -- you can outline what you want to do, but the more you have done, the better we can give you feedback and the more there is for your other feedback-giving classmates to work with
 
 be aware that the due dates have shifted a little bit -- the first draft of your final part 3 has moved up, but the final submission has moved back -- this is so that you'll have plenty of time to get feedback and give feedback to others.
+
+**more info about the video recording coming soon!**
 
 
 
@@ -65,15 +68,7 @@ notes:
 
 ---
 
-## What should we do today in class?
+## Guest Lecture from the Advanced Visualization Lab!
 
-A quick poll! 
 
-Options:
-1. Spend some time looking at more Altair examples with geospatial data (there are recordings of this also on the week's page on canvas)
-1. Have "lab time" to work on Final Projects
-
-notes:
-
-**on hide poll!**
 
