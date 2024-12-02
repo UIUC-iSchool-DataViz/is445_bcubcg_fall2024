@@ -31,6 +31,13 @@ you can stay in the main room, or there will be breakout rooms for you as well!
 
 ---
 
+## Next Week's Class: Online only
+
+Time to finalize Final Project, Part 3 submissions.
+
+
+---
+
 ## Notes on Final, Part 3
 
 Due dates:
