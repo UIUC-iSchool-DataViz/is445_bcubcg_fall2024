@@ -35,6 +35,12 @@ you can stay in the main room, or there will be breakout rooms for you as well!
 
 Time to finalize Final Project, Part 3 submissions.
 
+---
+
+## Reminder: Streamlit Activity Feedback Survey
+
+We appreciate your input!
+
 
 ---
 
