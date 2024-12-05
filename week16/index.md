@@ -6,12 +6,24 @@ notitle: true
 examples:
   - filename: inClass_week15.ipynb
     type: ipynb
-    title: In class notebook
-    description: Placeholder for in class coding
+    title: SciViz - In class notebook
+    description: Placeholder for in class coding for SciViz
+  - filename: inClass_week16.ipynb
+    type: ipynb
+    title: Wordclouds/Network Viz - In class notebook
+    description: Placeholder for in class coding for Wordclouds and Network Viz
   - filename: prep_notebook_week15.ipynb
     type: ipynb
-    title: Prep Notebook, Week 15
-    description: Prep notebook for this week
+    title: SciViz - Prep Notebook
+    description: Prep notebook for this week for SciViz
+  - filename: prep_notebook_wordcloud_part1.ipynb
+    type: ipynb
+    title: Wordclouds - Prep Notebook
+    description: Prep notebook for this week for SciViz
+  - filename: prep_notebook_networks_part2.ipynb
+    type: ipynb
+    title: Networks - Prep Notebook
+    description: Prep notebook for this week for SciViz
   - filename: spring2019_prep_notebook_week13.ipynb
     type: ipynb
     title: Examples from Spring 2019
@@ -31,6 +43,21 @@ data:
     title: Isolated Galaxy dataset (292 Mb)
     description: A single snapshot in time of a grid simulation of an isolated galaxy 
     link: http://yt-project.org/data/IsolatedGalaxy.tar.gz
+  - filename: othello.txt
+    type: dataLink
+    title: Text corpus from Othello
+    description: Full text from the play Othello from project Guthenburg
+    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/othello.txt
+  - filename: facebook_combined_sm000090_000010.txt
+    type: dataLink
+    title: Broad facebook data
+    description: Several small nodes facebook data
+    link:  https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/facebook_combined_sm000090_000010.txt
+  - filename: facebook_combined_sm000030_000000.txt
+    type: dataLink
+    title: Major node data
+    description: One major node facebook data
+    link:  https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/facebook_combined_sm000030_000000.txt
 ---
 
 # Network Viz + Text Viz

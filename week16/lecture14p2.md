@@ -3,7 +3,7 @@ title: Lecture 14.2 -- Scientific Visualization (for Quiz and EC)
 layout: lecture
 description: >-
  More about scientific visualization
-date: 2023-11-28
+date: 2024-12-04
 ---
 
 ## Last Time/This Time
