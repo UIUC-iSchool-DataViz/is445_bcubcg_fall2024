@@ -1,5 +1,5 @@
 ---
-title: Lecture 14.1 -- Notes on final project
+title: Lecture 14.1 -- A few final things
 layout: lecture
 description: >-
  A few final things
@@ -23,26 +23,27 @@ Look at all the stuff we covered!
 
 ---
 
-## Extra credit: Network Viz
+## Extra credit: Network Viz & SciViz
 
 notes:
-keep in mind that we have an extra credit assignment, worth 1 homework grade, that is in this week's page
+keep in mind that we have 2 extra credit assignments, worth 0.75 of a homework grade, that is in this week's page
 
 also recall that the maximum you can get on the homework is 100% of that category, so if you have a perfect HW score, you can't do better than that!
 
 ---
 
-## Notes on Final, Part 3
+## Reminders: Final, Part 3
 
 Due dates:
- 1. First draft of Part 3 -- due Dec 8th, will get feedback course participants
- 1. Post your link in the Moodle forum to get feedback from classmates
- 1. Provide feedback for 3 randomly assigned classmates -- due Dec 12th
- 1. Final chance to resubmit your Part 3 -- due Dec 14th (placeholder submission link)
+ 1. First draft of Part 3 -- due Dec 11, will get feedback course participants 
+ 1. Post your link in the Canvas forum to get feedback from classmates -- Dec 12 (**all group members must do this**)
+ 1. Provide feedback for 3 randomly assigned classmates -- due Dec 15
+ 1. Final chance to resubmit your Part 3 -- Dec 18
+ 1. Submit video about final project -- Dec 18
  
-**Please be aware these are hard deadlines**
+**Please be aware these are hard deadlines -- no extensions available**
  
-notes:
+note:
 go to pages!!
 
 because we have to get grades in by a certain time, these due dates are hard ones -- no extensions.
@@ -50,7 +51,6 @@ because we have to get grades in by a certain time, these due dates are hard one
 your "first" part 3 submission CAN be a work in progress -- you can outline what you want to do, but the more you have done, the better we can give you feedback and the more there is for your other feedback-giving classmates to work with
 
 
-notes:
 first I'm gonna start with some resource of where to go from here
 
 ---
@@ -66,60 +66,38 @@ different sub-fields of dataviz will lead you down different pathways
 
 ---
 
-## Python
+## Python-based things
 
  * See whats in dev on the [bqplot gitter lobby](https://gitter.im/bloomberg/bqplot)
  * More about volume rendering with [ipyvolume](https://ipyvolume.readthedocs.io/en/latest/)
  * More about sciviz dev with [yt slack](https://yt-project.slack.com/join/shared_invite/enQtMzQ4Nzk1Mjk0ODY4LWNmOTFiNTM4N2ExZWYyY2YwZDUxN2Q1MTgwNDdjZGExMWM0Y2VlNzUzNGExZTZhMWRlNjU3ZjFmZmU3MjdkNDg)
 
 notes:
-these are notes
+these are a few more resources for Python based development, including some 3D stuff we didn't get to including ipyvolume and more about yt (yt is part of the sciviz extra credit)
 
 ---
 
 ## Javascript
 
  * [Beginning Javascript course](https://www.codecademy.com/learn/introduction-to-javascript)
- * See what's in dev on the [Idyll gitter lobby](https://gitter.im/idyll-lang/Lobby) - including updates to vega-lite!
+ * [IS 439: Web Development](https://ischool.illinois.edu/degrees-programs/courses/is439) -- more application-based
+ * [IS 449: Web Application Development](http://catalog.illinois.edu/courses-of-instruction/is/) -- offered infrequently
+
+notes:
+we didn't really touch on javascript TOO much, we mainly used it "under the hood" but there are some other resources
 
 ---
 
-## Courses
+## Other Courses
 
- * [Advanced Data Visualization, iSchool](https://ischool.illinois.edu/degrees-programs/courses/is590adv)
- * [Museum Informatics](https://ischool.illinois.edu/degrees-programs/courses/is426)
- * [Data Science Storytelling](https://ischool.illinois.edu/degrees-programs/courses/is590dst)
- * [More on sciviz and graphics](https://jnaiman.github.io/csci-p-14110_su2020/) (Not UIUC, includes intro to programming)
+ * [IS 545: Advanced Data Visualization](https://ischool.illinois.edu/degrees-programs/courses/is545)
+ * [IS 426: Museum Informatics](https://ischool.illinois.edu/degrees-programs/courses/is426)
+ * [IS 457: Data Storytelling](https://ischool.illinois.edu/degrees-programs/courses/is457)
+ * [Coursera: 3D Data Visualization for Science Communication](https://www.coursera.org/learn/data-visualization-science-communication) 
 
 ---
 
 ## Also, don't forget to fill out your ICES forms!
-
----
-
-## Last time
-
-<img src='../week13/images/this_week3.png'>
-
-notes: 
-
-Just as a reminder of all of the things we've covered up an until this point! Last time we covered a little bit about scientific visualization...
-
----
-
-## This week (pre-recorded material)
-
-<img src='images/this_week_img.png'>
-
-notes: 
-
-This week we'll cover a little more on SciViz in some pre-recorded material and focus on our in-class time on working on final project stuff
-
----
-
-## Announcements and Reminders: Final Project, Part 2
-
-**Dashboard element** is required (i.e. like Lab 4) -- with a "driver" plot driving changes to an "updating/reaction" plot.
 
 ---
 
@@ -163,7 +141,7 @@ we'll also "talk" more about this in Week 15 with some pre-recorded materials an
 
 *No extensions.*
 
-*MAX Homework score is 45%.*
+*MAX Homework score is 40%.*
 
 notes:
 keep in mind that we have 2 extra credit assignments
@@ -176,10 +154,11 @@ also recall that the maximum you can get on the homework is 100% of that categor
 ## Announcements and Reminders: Part 3
 
 Due dates:
- 1. First draft of Part 3 -- due Dec 1, will get feedback course participants 
- 1. Post your link in the Canvas forum to get feedback from classmates -- Dec 2 (**all group members must do this**)
- 1. Provide feedback for 3 randomly assigned classmates -- due Dec 8
- 1. Final chance to resubmit your Part 3 -- Dec 11
+ 1. First draft of Part 3 -- due Dec 11, will get feedback course participants 
+ 1. Post your link in the Canvas forum to get feedback from classmates -- Dec 12 (**all group members must do this**)
+ 1. Provide feedback for 3 randomly assigned classmates -- due Dec 15
+ 1. Final chance to resubmit your Part 3 -- Dec 18
+ 1. Submit video about final project -- Dec 18
  
 **Please be aware these are hard deadlines -- no extensions available**
  
