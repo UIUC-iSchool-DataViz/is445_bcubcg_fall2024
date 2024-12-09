@@ -2,7 +2,7 @@
 title: Lecture 14.1 -- A few final things
 layout: lecture
 description: >-
- A few final things
+ Final reminders, extra credit options
 date: 2024-12-09
 ---
 
@@ -29,6 +29,23 @@ notes:
 keep in mind that we have 2 extra credit assignments, worth 0.75 of a homework grade, that is in this week's page
 
 also recall that the maximum you can get on the homework is 100% of that category, so if you have a perfect HW score, you can't do better than that!
+
+---
+
+## Extra credit Lab:Altair -- available on 12/11
+
+**Announcement will be made when available -- stay tuned!**
+
+Will have usual "Lab" format + feedback survey.
+
+Worth 75 points.
+
+notes:
+There will be a Lab that folks can choose to do available on the 11th (probably later in the day).  
+
+I'll send out an announcement for this when it is "live".
+
+The 75 points will be split into the actual lab component and then a feedback survey.
 
 ---
 
