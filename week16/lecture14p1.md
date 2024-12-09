@@ -38,7 +38,7 @@ also recall that the maximum you can get on the homework is 100% of that categor
 
 Will have usual "Lab" format + feedback survey.
 
-Worth 75 points.
+Worth 75 points, due 12/18.
 
 notes:
 There will be a Lab that folks can choose to do available on the 11th (probably later in the day).  
